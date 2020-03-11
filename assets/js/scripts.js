@@ -55,11 +55,11 @@ $(document).ready(function () {
  * Sets a random quote from Quotes API
  */
 function setRandomQuote() {
-  var apiUrl = "http://quotes.stormconsultancy.co.uk/random.json";
+  var apiUrl = "https://programming-quotes-api.herokuapp.com/quotes/random";
   var quoteEl = $('#quote');
   $.getJSON(apiUrl, function (quote) {
     quoteEl.hide();
-    quoteEl.html(quote.quote + "<p>&mdash; " + quote.author + "</p>");
+    quoteEl.html(quote.en + "<p>&mdash; " + quote.author + "</p>");
     quoteEl.fadeIn();
   });
 }
