@@ -2,9 +2,9 @@ const QUOTE_SECOND_INTERVAL = 30;
 $(document).ready(function () {
     // Set a new random quote 
     /// each quote seconds interval
-    setRandomQuote();
+    setQuote();
     setInterval(function () {
-        setRandomQuote();
+        setQuote();
     }, QUOTE_SECOND_INTERVAL * 1000);
 
     /**
@@ -19,4 +19,29 @@ $(document).ready(function () {
             quoteEl.fadeIn();
         });
     }
+
+    /**
+     *  Set Quote
+     */ 
+    async function setQuote() {
+        var quote = await getRandomQuote();
+        var quoteEl = $('#quote');
+        quoteEl.hide();
+        quoteEl.html(quote.text + "<p>&mdash; " + quote.author + "</p>");
+        quoteEl.fadeIn();
+    }
+
+    async function getRandomQuote() {
+        const url =
+          "https://raw.githubusercontent.com/skolakoda/programming-quotes-api/master/backup/quotes.json";
+        let response = await fetch(url);
+        let json = await response.json();
+      
+        json = json[Math.floor(Math.random() * (json.length + 1))];
+      
+        return {
+          text: json["en"],
+          author: json["author"]
+        };
+      }
 });
