@@ -42,3 +42,32 @@ Style font-awesome icons
 .container-quote {
     max-width: 900px;
 }
+
+a,
+a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+#docs-page .header {
+    width: 100%;
+}
+
+#docs-page .header a {
+    display: flex;
+    align-items: start;
+}
+
+#docs-page .header .disclaimer {
+    text-align: left;
+}
+
+#docs-page .header a img {
+    margin-right: 5px;
+}
+
+#docs-page .embeded-frame {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
