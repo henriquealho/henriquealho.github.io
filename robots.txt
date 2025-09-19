@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://henriquealho.github.io/sitemap.xml
