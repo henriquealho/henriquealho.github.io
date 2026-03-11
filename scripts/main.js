@@ -6,14 +6,15 @@ const getRandomQuote = async () => {
   const json = await response.json();
   const randomIndex = Math.floor(Math.random() * (json.length + 1));
   const quote = json[randomIndex];
-  const { en: text, author } = quote;
-  return { text, author };
+  const { id, en: text, author } = quote;
+  return { id, text, author };
 };
 
 const setQuote = async () => {
   const quote = await getRandomQuote();
-  const { text, author } = quote;
+  const { id, text, author } = quote;
   $("#quote").hide().html(`${text}<p>&mdash;${author}</p>`).fadeIn();
+  $('#container-quote').attr('href', `https://henriquealho.github.io/Programming-Quotes?id=${id}`);
 };
 
 $(document).ready(() => {
