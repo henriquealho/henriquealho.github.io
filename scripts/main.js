@@ -1,11 +1,11 @@
 // Dynamically load and display documents from documents.json
 async function loadDocuments() {
-  const response = await fetch('resources/documents.json');
+  const response = await fetch("resources/documents.json");
   const docs = await response.json();
-  const container = document.getElementById('documents-list');
+  const container = document.getElementById("documents-list");
   if (!container) return;
   let html = '<div class="row">';
-  docs.forEach(doc => {
+  docs.forEach((doc) => {
     html += `
       <div class="col-md-6 col-lg-4 mb-4">
         <div class="card h-100 shadow-sm document-card">
@@ -21,11 +21,11 @@ async function loadDocuments() {
       </div>
     `;
   });
-  html += '</div>';
+  html += "</div>";
   container.innerHTML = html;
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
   loadDocuments();
 });
 const QUOTE_SECOND_INTERVAL = 30;
@@ -44,12 +44,23 @@ const setQuote = async () => {
   const quote = await getRandomQuote();
   const { id, text, author } = quote;
   $("#quote").hide().html(`${text}<p>&mdash;${author}</p>`).fadeIn();
-  $('#container-quote').attr('href', `https://henriquealho.github.io/Programming-Quotes?id=${id}`);
+  $("#container-quote").attr(
+    "href",
+    `https://henriquealho.github.io/Programming-Quotes?id=${id}`,
+  );
+};
+
+const setUserInfo = async () => {
+  const response = await fetch("https://api.github.com/users/henriquealho");
+  const json = await response.json();
+  $("#bio").html(json.bio);
+  $("#name").html(json.name);
 };
 
 $(document).ready(() => {
   // Set a new random quote
   /// each quote seconds interval
+  setUserInfo();
   setQuote();
   setInterval(() => {
     setQuote();
