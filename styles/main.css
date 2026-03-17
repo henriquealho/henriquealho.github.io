@@ -1,3 +1,40 @@
+#documents-list {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.document-card {
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: box-shadow 0.2s;
+    background: rgba(255,255,255,0.92);
+}
+.document-card:hover {
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+}
+.document-thumb {
+    object-fit: cover;
+    height: 180px;
+    width: 100%;
+    background: #f8f9fa;
+}
+
+/* Custom button style for document links */
+.document-card .btn {
+    background: linear-gradient(90deg, #f7b32b 0%, #22223b 100%);
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 8px rgba(31,38,135,0.08);
+    transition: background 0.2s, color 0.2s;
+}
+.document-card .btn:hover, .document-card .btn:focus {
+    background: linear-gradient(90deg, #22223b 0%, #f7b32b 100%);
+    color: #fff;
+}
 html {
     background: url(../assets/images/background.png) no-repeat center center fixed;
     -webkit-background-size: cover;
