@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Super Tuga",
+    "version": "0.7.0",
+    "status": "in-development",
+    "date": "2026-11-03",
+    "imageUrl": "/assets/images/projects/super-tuga.png",
+    "demoUrl": "https://supertuga.app",
+    "featured": true
+  },
+  {
+    "name": "Terminus Geodata",
+    "version": "1.1.0",
+    "date": "2026-03-24",
+    "imageUrl": "/assets/images/projects/terminus-geodata.png",
+    "repoUrl": "https://github.com/henriquealho/terminus-geodata",
+    "demoUrl": "https://terminus-geodata.netlify.app",
+    "featured": true
+  },
+  {
+    "name": "Preços Combustíveis",
+    "status": "in-development",
+    "imageUrl": "/assets/images/projects/precos-combustiveis.png"
+  },
+  {
+    "name": "Alho List",
+    "status": "in-development",
+    "imageUrl": "/assets/images/projects/alho-list.png"
+  },
+  {
+    "name": "Calendário Crianças",
+    "status": "finished",
+    "imageUrl": "/assets/images/projects/calendario-criancas.png"
+  }
+]
