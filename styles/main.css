@@ -4,7 +4,7 @@
 }
 
 html {
-    background: #161616 url(../assets/images/background.png) no-repeat center center fixed;
+    background: #161616 url(../assets/images/background-lamps.svg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -835,10 +835,17 @@ Projects
     }
 }
 
+@media (min-width: 576px) {
+    html {
+        background-position: center calc(50% + 100px);
+    }
+}
+
 @media (max-width: 575.98px) {
     html {
         background-position: right top;
         background-attachment: scroll;
+        background-size: auto 100vh;
     }
 
     .quotes-card {

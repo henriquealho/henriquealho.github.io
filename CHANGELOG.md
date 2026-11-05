@@ -42,9 +42,13 @@ independent of this site's release versioning.
 - Canonical, description and Open Graph tags on the Docs and Projects pages.
 - GoatCounter analytics on every page.
 - Visible keyboard focus styles and `prefers-reduced-motion` support.
+- Custom lamp favicon, with the original ICO retained as a fallback.
 
 ### Changed
 
+- Replaced the static lamp background with custom vector bulb artwork distributed
+  across both sides of the page.
+- Lowered the desktop lamp background while preserving its mobile positioning.
 - Mobile backgrounds now keep the lamp illustration visible on narrow screens.
 - Quotes use a compact fixed-height panel with a 140-character limit.
 - JavaScript split per page (`home.js`, `docs.js`, `projects.js`, `cards.js`)
