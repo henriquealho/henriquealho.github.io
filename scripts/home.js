@@ -47,9 +47,8 @@ const setUserInfo = async () => {
   try {
     const response = await fetch("https://api.github.com/users/henriquealho");
     if (!response.ok) return;
-    const { name, bio } = await response.json();
+    const { name } = await response.json();
     if (name) document.getElementById("name").textContent = name;
-    if (bio) document.getElementById("bio").textContent = bio;
   } catch (error) {
     console.error(error);
   }
