@@ -20,6 +20,8 @@ independent of this site's release versioning.
 
 ## [Unreleased]
 
+## [2026.11.05] - 2026-11-05
+
 - Switched the site's release versioning from SemVer to CalVer `YYYY.MM.DD`.
 
 ### Added
@@ -43,6 +45,8 @@ independent of this site's release versioning.
 - GoatCounter analytics on every page.
 - Visible keyboard focus styles and `prefers-reduced-motion` support.
 - Custom lamp favicon in SVG format.
+- Date-based project visibility using `isVisible` ISO date/time values; Super Tuga is
+  scheduled to become visible at 20:00 UTC on 2026-11-05.
 
 ### Changed
 
@@ -73,5 +77,6 @@ independent of this site's release versioning.
 
 - Baseline: home page with rotating programming quotes and the Docs page.
 
-[Unreleased]: https://github.com/henriquealho/henriquealho.github.io/compare/v2026.03.24...HEAD
+[Unreleased]: https://github.com/henriquealho/henriquealho.github.io/compare/v2026.11.05...HEAD
+[2026.11.05]: https://github.com/henriquealho/henriquealho.github.io/releases/tag/v2026.11.05
 [2026.03.24]: https://github.com/henriquealho/henriquealho.github.io/releases/tag/v2026.03.24
