@@ -8,14 +8,15 @@ const escapeHtml = (value) =>
     "'": "&#39;",
   })[char]);
 
-const renderCardList = async ({ url, containerId, renderCard, sort, emptyMessage }) => {
+const renderCardList = async ({ url, containerId, renderCard, sort, filter, emptyMessage }) => {
   const container = document.getElementById(containerId);
   if (!container) return;
 
   try {
     const response = await fetch(url);
     if (!response.ok) throw new Error(`Failed to load ${url} (${response.status})`);
-    const items = await response.json();
+    let items = await response.json();
+    if (filter) items = items.filter(filter);
     if (sort) items.sort(sort);
     container.innerHTML = items.length
       ? `<div class="row">${items.map(renderCard).join("")}</div>`
