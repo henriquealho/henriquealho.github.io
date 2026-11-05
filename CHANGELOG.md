@@ -28,10 +28,13 @@ independent of this site's release versioning.
   recent articles from the Medium RSS feed without adding another page; feed results
   include a short text excerpt, are cached locally, and failed requests are throttled
   to avoid repeated rate limits.
+- Integrated Programming Quotes into the personal site at `/quotes.html`, with
+  deep links, browsing controls, and local quote data.
 - Projects page (`/projects.html`) rendered from `resources/projects.json`, ordered
   by most recent `date`, with a featured image, `version` and `status`
   (`finished`, `in-development`, `on-hold`) for each project.
-- Shared top navigation (Home, Projects, Docs) on every page, with a skip link.
+- Shared top navigation on every page, with a skip link.
+- Quotes link in shared navigation and sitemap.
 - `404.html` page with a link back home.
 - Projects icon next to the social links on the home page.
 - Canonical, description and Open Graph tags on the Docs and Projects pages.

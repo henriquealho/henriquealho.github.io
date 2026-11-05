@@ -7,7 +7,7 @@ const MEDIUM_CACHE_KEY = "medium-posts-cache-v2";
 const MEDIUM_RETRY_KEY = "medium-posts-retry-after";
 const MEDIUM_CACHE_TTL_MS = 6 * 60 * 60 * 1000;
 const MEDIUM_RETRY_DELAY_MS = 60 * 60 * 1000;
-const QUOTES_APP_URL = "https://henriquealho.github.io/Programming-Quotes/";
+const QUOTES_PAGE_URL = "/quotes.html";
 
 let quotesCache = null;
 let mediumPostsCache = null;
@@ -189,6 +189,7 @@ const updateFeature = (text, { href, label, italic, excerpt }) => {
   labelEl.textContent = label;
   labelEl.hidden = !label;
   quoteEl.classList.toggle("font-italic", italic);
+  linkEl.target = italic ? "_self" : "_blank";
   void quoteEl.offsetWidth;
   quoteEl.classList.add("is-visible");
 };
@@ -208,8 +209,9 @@ const setQuote = async () => {
 
     const linkEl = document.getElementById("container-quote");
     if (linkEl) {
-      linkEl.href = `${QUOTES_APP_URL}?id=${encodeURIComponent(id)}`;
+      linkEl.href = `${QUOTES_PAGE_URL}?id=${encodeURIComponent(id)}`;
       linkEl.classList.remove("is-medium");
+      linkEl.target = "_self";
     }
     const labelEl = document.getElementById("feature-label");
     if (labelEl) labelEl.hidden = true;

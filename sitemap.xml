@@ -19,4 +19,10 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://henriquealho.github.io/quotes.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
