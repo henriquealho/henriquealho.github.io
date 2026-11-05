@@ -1,9 +1,18 @@
 // Projects page: render projects from resources/projects.json, most recent first.
 // Each project can provide a name, description, version, images, date, repoUrl, demoUrl, featured, and isVisible.
+// isVisible can be true or an ISO date/datetime string from which the project is visible.
 
 const byMostRecent = (a, b) => (b.date || "").localeCompare(a.date || "");
 
 const getProjectImages = (project) => project.images || (project.imageUrl ? [project.imageUrl] : []);
+
+const isProjectVisible = (project) => {
+  if (project.isVisible === true) return true;
+  if (typeof project.isVisible !== "string") return false;
+
+  const visibleFrom = Date.parse(project.isVisible);
+  return !Number.isNaN(visibleFrom) && Date.now() >= visibleFrom;
+};
 
 const renderProjectGallery = (project, name) => {
   const images = getProjectImages(project);
@@ -130,7 +139,7 @@ document.addEventListener("DOMContentLoaded", () => {
     containerId: "projects-list",
     renderCard: renderProject,
     sort: byMostRecent,
-    filter: (project) => project.isVisible === true,
+    filter: isProjectVisible,
     emptyMessage: "No projects yet.",
   });
 
@@ -140,7 +149,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const gallery = document.getElementById(button.dataset.galleryTarget);
     const image = gallery.querySelector(".project-gallery-main img");
-    const mainButton = gallery.querySelector(".project-gallery-main");
     let imageIndex = 0;
 
     if (button.classList.contains("project-gallery-thumb")) {
