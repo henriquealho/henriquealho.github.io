@@ -42,7 +42,7 @@ independent of this site's release versioning.
 - Canonical, description and Open Graph tags on the Docs and Projects pages.
 - GoatCounter analytics on every page.
 - Visible keyboard focus styles and `prefers-reduced-motion` support.
-- Custom lamp favicon, with the original ICO retained as a fallback.
+- Custom lamp favicon in SVG format.
 
 ### Changed
 
