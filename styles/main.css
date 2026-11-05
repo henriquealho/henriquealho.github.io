@@ -200,6 +200,18 @@ Home quote
     font-style: normal;
 }
 
+.medium-excerpt {
+    display: -webkit-box;
+    margin-top: 0.35rem;
+    color: rgba(255, 255, 255, 0.76);
+    font-size: 0.85rem;
+    font-weight: 400;
+    line-height: 1.45;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
 .quote-author {
     display: block;
     margin-top: 0.25rem;

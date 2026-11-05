@@ -3,7 +3,7 @@ const QUOTE_SECOND_INTERVAL = 30;
 const QUOTES_URL = "/resources/quotes.json";
 const MEDIUM_FEED_URL = "https://medium.com/feed/@henriquealho";
 const MEDIUM_API_URL = "https://api.rss2json.com/v1/api.json";
-const MEDIUM_CACHE_KEY = "medium-posts-cache";
+const MEDIUM_CACHE_KEY = "medium-posts-cache-v2";
 const MEDIUM_RETRY_KEY = "medium-posts-retry-after";
 const MEDIUM_CACHE_TTL_MS = 6 * 60 * 60 * 1000;
 const MEDIUM_RETRY_DELAY_MS = 60 * 60 * 1000;
@@ -38,6 +38,7 @@ const isValidMediumPosts = (posts) =>
       typeof post.title === "string" &&
       post.title.trim().length > 0 &&
       typeof post.url === "string" &&
+      (post.excerpt === undefined || typeof post.excerpt === "string") &&
       (() => {
         try {
           return new URL(post.url).protocol === "https:";
@@ -46,6 +47,25 @@ const isValidMediumPosts = (posts) =>
         }
       })(),
   );
+
+const getMediumExcerpt = (content) => {
+  if (typeof content !== "string" || !content.trim()) return "";
+
+  const parsedContent = new DOMParser().parseFromString(content, "text/html");
+  const paragraphs = Array.from(
+    parsedContent.body.querySelectorAll("p, li, h1, h2, h3, blockquote"),
+  )
+    .map((element) => element.textContent.trim())
+    .filter(Boolean);
+  const text = (paragraphs.join(" ") || parsedContent.body.textContent)
+    .replace(/\s+/g, " ")
+    .trim();
+  if (text.length <= 180) return text;
+
+  const excerpt = text.slice(0, 180);
+  const lastSpace = excerpt.lastIndexOf(" ");
+  return `${excerpt.slice(0, lastSpace > 120 ? lastSpace : 180).trimEnd()}…`;
+};
 
 const readMediumCache = () => {
   try {
@@ -116,7 +136,11 @@ const fetchMediumPosts = async () => {
 
     mediumPostsCache = feed.items
       .filter((post) => typeof post.title === "string" && typeof post.link === "string")
-      .map((post) => ({ title: post.title.trim(), url: post.link }))
+      .map((post) => ({
+        title: post.title.trim(),
+        url: post.link,
+        excerpt: getMediumExcerpt(post.description || post.content),
+      }))
       .filter((post) => {
         try {
           return post.title.length > 0 && new URL(post.url).protocol === "https:";
@@ -146,7 +170,7 @@ const fetchMediumPosts = async () => {
   }
 };
 
-const updateFeature = (text, { href, label, italic }) => {
+const updateFeature = (text, { href, label, italic, excerpt }) => {
   const quoteEl = document.getElementById("quote");
   const linkEl = document.getElementById("container-quote");
   const labelEl = document.getElementById("feature-label");
@@ -154,6 +178,12 @@ const updateFeature = (text, { href, label, italic }) => {
 
   quoteEl.classList.remove("is-visible");
   quoteEl.textContent = text;
+  if (excerpt) {
+    const excerptEl = document.createElement("span");
+    excerptEl.className = "medium-excerpt";
+    excerptEl.textContent = excerpt;
+    quoteEl.appendChild(excerptEl);
+  }
   linkEl.href = href;
   linkEl.classList.toggle("is-medium", !italic);
   labelEl.textContent = label;
@@ -202,6 +232,7 @@ const setMediumPost = async () => {
       href: post.url,
       label: "Latest on Medium",
       italic: false,
+      excerpt: post.excerpt,
     });
   } catch (error) {
     console.warn("Could not load the latest Medium post; the quote remains visible.", error);
