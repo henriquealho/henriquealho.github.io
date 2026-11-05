@@ -16,7 +16,13 @@
     />
     <meta property="og:image" content="https://github.com/henriquealho.png?size=200" />
     <meta property="og:url" content="https://henriquealho.github.io/quotes.html" />
+    <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Programming Quotes – Henrique Alho" />
+    <meta
+      name="twitter:description"
+      content="A collection of programming quotes about software, programming, and technology."
+    />
     <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon" />
     <link
       rel="stylesheet"
@@ -66,8 +72,8 @@
           <h1 class="sr-only">Programming Quotes</h1>
           <section class="quotes-card" aria-labelledby="quote-text">
             <span class="quotes-mark" aria-hidden="true">&ldquo;</span>
-            <blockquote class="quotes-content">
-              <p id="quote-text" class="quotes-text" aria-live="polite">Loading quotes…</p>
+            <blockquote class="quotes-content" aria-live="polite" aria-atomic="true">
+              <p id="quote-text" class="quotes-text">Loading quotes…</p>
               <footer id="quote-author" class="quotes-author"></footer>
             </blockquote>
             <div class="quotes-divider" aria-hidden="true"></div>
@@ -92,6 +98,9 @@
             </div>
           </section>
           <p id="quote-feedback" class="quotes-feedback" role="status" aria-live="polite"></p>
+          <noscript>
+            <p class="quotes-feedback">Enable JavaScript to browse the programming quotes.</p>
+          </noscript>
         </div>
       </main>
     </div>

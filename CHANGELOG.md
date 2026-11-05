@@ -35,6 +35,7 @@ independent of this site's release versioning.
   (`finished`, `in-development`, `on-hold`) for each project.
 - Shared top navigation on every page, with a skip link.
 - Quotes link in shared navigation and sitemap.
+- Responsive touch targets, matching 404 styling, and social metadata across pages.
 - `404.html` page with a link back home.
 - Projects icon next to the social links on the home page.
 - Canonical, description and Open Graph tags on the Docs and Projects pages.
