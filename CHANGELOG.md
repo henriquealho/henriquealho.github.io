@@ -36,6 +36,7 @@ independent of this site's release versioning.
 - Shared top navigation on every page, with a skip link.
 - Quotes link in shared navigation and sitemap.
 - Responsive touch targets, matching 404 styling, and social metadata across pages.
+- Animated lightbulb loading states for quotes, projects and resources.
 - `404.html` page with a link back home.
 - Projects icon next to the social links on the home page.
 - Canonical, description and Open Graph tags on the Docs and Projects pages.
@@ -44,6 +45,8 @@ independent of this site's release versioning.
 
 ### Changed
 
+- Mobile backgrounds now keep the lamp illustration visible on narrow screens.
+- Quotes use a compact fixed-height panel with a 140-character limit.
 - JavaScript split per page (`home.js`, `docs.js`, `projects.js`, `cards.js`)
   instead of a single `main.js`.
 - Quotes are loaded once from a relative path and rotation pauses while the tab is hidden.
@@ -52,6 +55,7 @@ independent of this site's release versioning.
 
 ### Removed
 
+- Quotes longer than 140 characters from the quote collection.
 - jQuery, Popper and the Bootstrap 4.0 JavaScript bundle (only the Bootstrap 4.5.2 CSS is used).
 
 ### Fixed

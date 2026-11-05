@@ -183,6 +183,61 @@ Home quote
     min-height: 4.5rem;
 }
 
+#quote.is-loading {
+    opacity: 1;
+}
+
+.loading-state {
+    display: flex;
+    min-height: 11rem;
+    max-width: 24rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.85rem;
+    margin: 2rem auto;
+    padding: 2rem 1rem;
+    border: 1px solid rgba(247, 179, 43, 0.28);
+    border-radius: 1rem;
+    background: rgba(22, 22, 22, 0.88);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.24);
+    color: rgba(255, 255, 255, 0.78);
+    text-align: center;
+}
+
+.loading-state-inline {
+    max-width: none;
+    min-height: 4.5rem;
+    flex-direction: row;
+    gap: 0.65rem;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+}
+
+.loading-bulb {
+    color: var(--accent);
+    font-size: 2.5rem;
+    transform-origin: 50% 80%;
+    animation: bulb-wake 1.8s ease-in-out infinite;
+}
+
+@keyframes bulb-wake {
+    0%,
+    100% {
+        filter: drop-shadow(0 0 0.25rem rgba(247, 179, 43, 0.45));
+        transform: rotate(-8deg) scale(0.94);
+    }
+
+    50% {
+        filter: drop-shadow(0 0 1rem rgba(247, 179, 43, 0.8));
+        transform: rotate(8deg) scale(1.08);
+    }
+}
+
 .home-feature-label:not([hidden]) {
     display: block;
     margin-bottom: 0.25rem;
@@ -239,6 +294,9 @@ Programming quotes
 
 .quotes-card {
     position: relative;
+    display: flex;
+    height: 22rem;
+    flex-direction: column;
     max-width: 860px;
     margin: 0 auto;
     padding: clamp(1.5rem, 5vw, 3.5rem);
@@ -261,17 +319,30 @@ Programming quotes
 }
 
 .quotes-content {
+    display: flex;
+    min-height: 0;
+    flex: 1;
+    flex-direction: column;
     margin: 3rem 0 0;
 }
 
 .quotes-text {
-    min-height: 6rem;
+    display: flex;
+    min-height: 0;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
     margin: 0;
     color: rgba(255, 255, 255, 0.92);
     font-size: clamp(1.15rem, 2.4vw, 1.55rem);
-    line-height: 1.7;
+    line-height: 1.45;
     opacity: 0;
     transition: opacity 0.25s ease;
+}
+
+.quotes-text.is-loading {
+    opacity: 1;
 }
 
 .quotes-text.is-visible {
@@ -765,6 +836,28 @@ Projects
 }
 
 @media (max-width: 575.98px) {
+    html {
+        background-position: right top;
+        background-attachment: scroll;
+    }
+
+    .quotes-card {
+        height: 25rem;
+        padding: 0.75rem;
+    }
+
+    .quotes-content {
+        margin-top: 1.25rem;
+    }
+
+    .quotes-author {
+        margin-top: 0.25rem;
+    }
+
+    .quotes-divider {
+        margin: 0.5rem 0;
+    }
+
     .site-nav .container {
         flex-wrap: nowrap;
         gap: 0.5rem;
@@ -825,8 +918,10 @@ Projects
     .document-card,
     .project-card,
     .site-nav-links a,
-    .btn-accent {
+    .btn-accent,
+    .loading-bulb {
         transition: none;
+        animation: none;
     }
 
     .project-card:hover {

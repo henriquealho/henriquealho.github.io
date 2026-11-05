@@ -70,10 +70,15 @@
       <main id="main" class="page-main quotes-page">
         <div class="container">
           <h1 class="sr-only">Programming Quotes</h1>
-          <section class="quotes-card" aria-labelledby="quote-text">
+          <section class="quotes-card" aria-labelledby="quote-text" aria-busy="true">
             <span class="quotes-mark" aria-hidden="true">&ldquo;</span>
             <blockquote class="quotes-content" aria-live="polite" aria-atomic="true">
-              <p id="quote-text" class="quotes-text">Loading quotes…</p>
+              <p id="quote-text" class="quotes-text is-loading">
+                <span class="loading-state loading-state-inline" role="status">
+                  <i class="fa fa-lightbulb-o loading-bulb" aria-hidden="true"></i>
+                  <span>Finding a quote…</span>
+                </span>
+              </p>
               <footer id="quote-author" class="quotes-author"></footer>
             </blockquote>
             <div class="quotes-divider" aria-hidden="true"></div>
@@ -82,11 +87,11 @@
                 <span class="fa fa-chevron-left" aria-hidden="true"></span>
                 Previous
               </button>
-              <button id="next-quote" class="quote-action" type="button">
+              <button id="next-quote" class="quote-action" type="button" disabled>
                 Next
                 <span class="fa fa-chevron-right" aria-hidden="true"></span>
               </button>
-              <button id="random-quote" class="quote-action" type="button">
+              <button id="random-quote" class="quote-action" type="button" disabled>
                 <span class="fa fa-random" aria-hidden="true"></span>
                 Random
               </button>

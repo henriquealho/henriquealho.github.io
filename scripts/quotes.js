@@ -1,4 +1,5 @@
 const QUOTES_URL = "/resources/quotes.json";
+const MAX_QUOTE_LENGTH = 140;
 const quoteTextEl = document.getElementById("quote-text");
 const quoteAuthorEl = document.getElementById("quote-author");
 const quoteCounterEl = document.getElementById("quote-counter");
@@ -12,6 +13,18 @@ let quotes = [];
 let currentIndex = 0;
 let feedbackTimeout;
 
+const fitQuoteText = () => {
+  quoteTextEl.style.removeProperty("font-size");
+  let fontSize = Number.parseFloat(getComputedStyle(quoteTextEl).fontSize);
+  const minFontSize = 10.5;
+
+  quoteTextEl.style.fontSize = `${fontSize}px`;
+  while (quoteTextEl.scrollHeight > quoteTextEl.clientHeight && fontSize > minFontSize) {
+    fontSize = Math.max(minFontSize, fontSize - 0.5);
+    quoteTextEl.style.fontSize = `${fontSize}px`;
+  }
+};
+
 const updateQuoteUrl = (quote) => {
   const url = new URL(window.location.href);
   url.searchParams.set("id", quote.id);
@@ -24,11 +37,15 @@ const renderQuote = (index, updateUrl = true) => {
 
   currentIndex = index;
   quoteTextEl.classList.remove("is-visible");
+  quoteTextEl.classList.remove("is-loading");
   quoteTextEl.textContent = quote.en;
   quoteAuthorEl.textContent = quote.author ? `— ${quote.author}` : "";
   quoteCounterEl.textContent = `${index + 1} / ${quotes.length}`;
   previousButton.hidden = index === 0;
+  nextButton.disabled = false;
+  randomButton.disabled = false;
   copyButton.disabled = false;
+  fitQuoteText();
   clearFeedback();
   if (updateUrl) updateQuoteUrl(quote);
 
@@ -68,7 +85,8 @@ const loadQuotes = async () => {
       (quote) =>
         typeof quote.id === "string" &&
         typeof quote.en === "string" &&
-        quote.en.trim().length > 0,
+        quote.en.trim().length > 0 &&
+        quote.en.trim().length <= MAX_QUOTE_LENGTH,
     );
     if (quotes.length === 0) throw new Error("No valid quotes were found");
 
@@ -84,11 +102,17 @@ const loadQuotes = async () => {
     quoteTextEl.textContent = "Quotes could not be loaded. Please try again later.";
     quoteAuthorEl.textContent = "";
     quoteCounterEl.textContent = "";
+    quoteTextEl.classList.remove("is-loading");
+    fitQuoteText();
     quoteTextEl.classList.add("is-visible");
     nextButton.disabled = true;
     randomButton.disabled = true;
+  } finally {
+    quoteTextEl.closest(".quotes-card")?.setAttribute("aria-busy", "false");
   }
 };
+
+window.addEventListener("resize", fitQuoteText);
 
 previousButton.addEventListener("click", () => {
   if (currentIndex > 0) renderQuote(currentIndex - 1);

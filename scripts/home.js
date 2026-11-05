@@ -1,6 +1,7 @@
 // Home page: rotating programming quote and GitHub profile info.
 const QUOTE_SECOND_INTERVAL = 30;
 const QUOTES_URL = "/resources/quotes.json";
+const MAX_QUOTE_LENGTH = 140;
 const MEDIUM_FEED_URL = "https://medium.com/feed/@henriquealho";
 const MEDIUM_API_URL = "https://api.rss2json.com/v1/api.json";
 const MEDIUM_CACHE_KEY = "medium-posts-cache-v2";
@@ -19,7 +20,13 @@ const loadQuotes = async () => {
   if (!quotesCache) {
     const response = await fetch(QUOTES_URL);
     if (!response.ok) throw new Error(`Failed to load quotes (${response.status})`);
-    quotesCache = await response.json();
+    const data = await response.json();
+    quotesCache = data.filter(
+      (quote) =>
+        typeof quote.en === "string" &&
+        quote.en.trim().length > 0 &&
+        quote.en.trim().length <= MAX_QUOTE_LENGTH,
+    );
   }
   return quotesCache;
 };
@@ -177,6 +184,7 @@ const updateFeature = (text, { href, label, italic, excerpt }) => {
   if (!quoteEl || !linkEl || !labelEl) return;
 
   quoteEl.classList.remove("is-visible");
+  quoteEl.classList.remove("is-loading");
   quoteEl.textContent = text;
   if (excerpt) {
     const excerptEl = document.createElement("span");
@@ -201,6 +209,7 @@ const setQuote = async () => {
     if (!quoteEl) return;
 
     quoteEl.classList.remove("is-visible");
+    quoteEl.classList.remove("is-loading");
     quoteEl.textContent = text;
     const authorEl = document.createElement("span");
     authorEl.className = "quote-author";
@@ -220,6 +229,11 @@ const setQuote = async () => {
     quoteEl.classList.add("is-visible");
   } catch (error) {
     console.error(error);
+    const quoteEl = document.getElementById("quote");
+    if (!quoteEl) return;
+    quoteEl.classList.remove("is-loading");
+    quoteEl.textContent = "A little inspiration is unavailable right now.";
+    quoteEl.classList.add("is-visible");
   }
 };
 
