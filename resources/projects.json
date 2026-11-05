@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Super Tuga",
+    "version": "v0.7.0 beta",
+    "description": "A 2D platform game with a Portuguese theme, featuring a character named Zé who embarks on an adventure through various regions of Portugal, with lots of humor and cultural references.",
+    "date": "2026-11-03",
+    "images": [
+      "/assets/images/projects/super-tuga-menu-v0.7.0.png",
+      "/assets/images/projects/super-tuga-gameplay-v0.7.0.png",
+      "/assets/images/projects/super-tuga-scores-v0.7.0.png",
+      "/assets/images/projects/super-tuga-options-v0.7.0.png"
+    ],
+    "demoUrl": "https://supertuga.app",
+    "featured": true,
+    "isVisible": "2026-11-05T20:00:00+00:00"
+  },
+  {
+    "name": "Terminus - GEO DATA",
+    "version": "v1.1.0",
+    "description": "GPS mapping tool for area calculation. Import and export all your data in KML, GPX, and GeoJSON formats. Create and manage your own maps with ease.",
+    "date": "2026-03-24",
+    "images": [
+      "/assets/images/projects/terminus-area.jpg",
+      "/assets/images/projects/terminus-options.jpg"
+    ],
+    "demoUrl": "https://terminus-geodata.netlify.app",
+    "featured": true,
+    "isVisible": true
+  },
+  {
+    "name": "Preços dos Combustíveis",
+    "version": "v0.1.0-alpha.1",
+    "description": "The cheapest gas stations near you, without annoying advertisements.",
+    "images": [
+      "/assets/images/projects/precos-combustiveis-porto.jpg",
+      "/assets/images/projects/precos-combustiveis-porto-mobile.png"
+    ],
+    "demoUrl": "https://precos-combustiveis.netlify.app/",
+    "isVisible": true
+  },
+  {
+    "name": "Calendário Crianças",
+    "version": "v0.1.0-alpha.1",
+    "description": "A calendar for kids, to help them learn the days of the week, months, and seasons in a fun and interactive way.",
+    "images": [
+      "/assets/images/projects/calendario-criancas.jpg",
+      "/assets/images/projects/calendario-criancas-mes.png"
+    ],
+    "demoUrl": "https://calendario-criancas.netlify.app/",
+    "isVisible": false
+  }
+]

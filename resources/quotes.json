@@ -20,16 +20,6 @@
     "en": "If debugging is the process of removing software bugs, then programming must be the process of putting them in."
   },
   {
-    "id": "5a6ce86e2af929789500e7d9",
-    "author": "Edsger W. Dijkstra",
-    "en": "A program is like a poem: you cannot write a poem without writing it. Yet people talk about programming as if it were a production process and measure „programmer productivity“ in terms of „number of lines of code produced“. In so doing they book that number on the wrong side of the ledger: We should always refer to „the number of lines of code spent“."
-  },
-  {
-    "id": "5a6ce86f2af929789500e7f8",
-    "author": "Tony Hoare",
-    "en": "There are two ways of constructing a software design: One way is to make it so simple that there are obviously no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies. The first method is far more difficult."
-  },
-  {
     "id": "5a6ce86f2af929789500e807",
     "author": "Jeff Hammerbacher",
     "en": "The best minds of my generation are thinking about how to make people click ads."
@@ -38,11 +28,6 @@
     "id": "5a6ce86f2af929789500e7f9",
     "author": "Edsger W. Dijkstra",
     "en": "The tools we use have a profound and devious influence on our thinking habits, and therefore on our thinking abilities."
-  },
-  {
-    "id": "5a6ce86f2af929789500e7f5",
-    "author": "Edsger W. Dijkstra",
-    "en": "How do we convince people that in programming simplicity and clarity — in short: what mathematicians call \"elegance\" — are not a dispensable luxury, but a crucial matter that decides between success and failure?"
   },
   {
     "id": "5a6ce86f2af929789500e80b",
@@ -68,36 +53,6 @@
     "id": "5a6ce86f2af929789500e826",
     "author": "Ken Thompson",
     "en": "When in doubt, use brute force."
-  },
-  {
-    "id": "5a6ce86f2af929789500e814",
-    "author": "Fred Brooks",
-    "en": "When a task cannot be partitioned because of sequential constraints, the application of more effort has no effect on the schedule. The bearing of a child takes nine months, no matter how many women are assigned."
-  },
-  {
-    "id": "5a6ce86f2af929789500e816",
-    "author": "Fred Brooks",
-    "en": "If each part of the task must be separately coordinated with each other part, the effort increases as n(n-1)/2. Three workers require three times as much pairwise intercommunication as two; four require six times as much as two."
-  },
-  {
-    "id": "5a6ce86f2af929789500e818",
-    "author": "Fred Brooks",
-    "en": "Having a system architect is the most important single step toward conceptual integrity. After teaching a software engineering laboratory more than 20 times, I came to insist that student teams as small as four people choose a manager and a separate architect."
-  },
-  {
-    "id": "5a6ce86f2af929789500e80f",
-    "author": "Fred Brooks",
-    "en": "The programmer, like the poet, works only slightly removed from pure thought-stuff. He builds his castles in the air, from air, creating by exertion of the imagination. Few media of creation are so flexible, so easy to polish and rework, so readily capable of realizing grand conceptual structures."
-  },
-  {
-    "id": "5a6ce86f2af929789500e821",
-    "author": "Fred Brooks",
-    "en": "The first false assumption that underlies the scheduling of systems programming is that all will go well, i.e., that each task will hike only as long as it \"ought\" to take. A large programming effort, however, consists of many tasks, some chained end-to-end. The probability that each will go well becomes vanishingly small."
-  },
-  {
-    "id": "5a6ce86f2af929789500e81e",
-    "author": "Donald Knuth",
-    "en": "We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil. Yet we should not pass up our opportunities in that critical 3%."
   },
   {
     "id": "5a6ce86f2af929789500e824",
@@ -135,19 +90,9 @@
     "en": "Cleaning code does NOT take time. NOT cleaning code does take time."
   },
   {
-    "id": "5a6ce86f2af929789500e837",
-    "author": "David Gelernter",
-    "en": "Beauty is more important in computing than anywhere else in technology because software is so complicated. Beauty is the ultimate defense against complexity."
-  },
-  {
     "id": "5a6ce86f2af929789500e833",
     "author": "Edward V. Berard",
     "en": "Walking on water and developing software from a specification are easy if both are frozen."
-  },
-  {
-    "id": "5a6ce86f2af929789500e836",
-    "author": "Brian Kernighan",
-    "en": "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it."
   },
   {
     "id": "5a6ce86f2af929789500e838",
@@ -173,11 +118,6 @@
     "id": "5a6ce86f2af929789500e845",
     "author": "Laurence J. Peter",
     "en": "Some problems are so complex that you have to be highly intelligent and well informed just to be undecided about them."
-  },
-  {
-    "id": "5a6ce86f2af929789500e841",
-    "author": "Poul-Henning Kamp",
-    "en": "Make a guess, double the number, and then move to the next larger unit of time. This rule scales tasks in a very interesting way: a one-minute task explodes by a factor of 120 to take two hours. A one-hour job explodes by \"only\" a factor 48 to take two days, while a one-day job grows by a factor of 14 to take two weeks."
   },
   {
     "id": "5a6ce86f2af929789500e847",
@@ -210,11 +150,6 @@
     "en": "Measuring programming progress by lines of code is like measuring aircraft building progress by weight."
   },
   {
-    "id": "5a6ce8702af929789500e85e",
-    "author": "William Wulf",
-    "en": "More computing sins are committed in the name of efficiency (without necessarily achieving it) than for any other single reason - including blind stupidity."
-  },
-  {
     "id": "5a6ce8702af929789500e860",
     "author": "Edsger W. Dijkstra",
     "en": "Testing can be a very effective way to show the presence of bugs, but it is hopelessly inadequate for showing their absence."
@@ -223,11 +158,6 @@
     "id": "5a6ce8702af929789500e864",
     "author": "Albert Einstein",
     "en": "Imagination is more important than knowledge."
-  },
-  {
-    "id": "5a6ce8702af929789500e862",
-    "author": "Buckminster Fuller",
-    "en": "When I am working on a problem I never think about beauty. I think only how to solve the problem. But when I have finished, if the solution is not beautiful, I know it is wrong."
   },
   {
     "id": "5a6ce86f2af929789500e84b",
@@ -255,24 +185,9 @@
     "en": "Over half of the time you spend working on a project is spent thinking, and no tool, no matter how advanced, can think for you."
   },
   {
-    "id": "5a6ce8702af929789500e86e",
-    "author": "Edsger W. Dijkstra",
-    "en": "We could, for instance, begin with cleaning up our language by no longer calling a bug a bug but by calling it an error. It is much more honest because it squarely puts the blame where it belongs, viz. with the programmer who made the error. The animistic metaphor of the bug that maliciously sneaked in while the programmer was not looking is intellectually dishonest as it disguises that the error is the programmer's own creation. The nice thing of this simple change of vocabulary is that it has such a profound effect: while, before, a program with only one bug used to be \"almost correct\", afterwards a program with an error is just \"wrong\"."
-  },
-  {
     "id": "5a6ce8702af929789500e88b",
     "author": "Stewart Brand",
     "en": "Once a new technology starts rolling, if you’re not part of the steamroller, you’re part of the road."
-  },
-  {
-    "id": "5a6ce8702af929789500e887",
-    "author": "John Gall (author)",
-    "en": "A complex system that works is invariably found to have evolved from a simple system that worked. The inverse proposition also appears to be true: A complex system designed from scratch never works and cannot be made to work."
-  },
-  {
-    "id": "5a6ce8702af929789500e889",
-    "author": "Henry Petroski",
-    "en": "The most amazing achievement of the computer software industry is its continuing cancellation of the steady and staggering gains made by the computer hardware industry."
   },
   {
     "id": "5a6ce8702af929789500e88e",
@@ -305,11 +220,6 @@
     "en": "What I cannot build, I do not understand."
   },
   {
-    "id": "5a6ce8702af929789500e8a6",
-    "author": "Albert Einstein",
-    "en": "Any intelligent fool can make things bigger, more complex, and more violent. It takes a touch of genius – and a lot of courage – to move in the opposite direction."
-  },
-  {
     "id": "5a6ce8702af929789500e898",
     "author": "Lawrence Flon",
     "en": "There is no programming language, no matter how structured, that will prevent programmers from making bad programs."
@@ -318,11 +228,6 @@
     "id": "5a6ce8702af929789500e8a8",
     "author": "Martin Fowler",
     "en": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
-  },
-  {
-    "id": "5a6ce8702af929789500e894",
-    "author": "Joe Armstrong (programmer)",
-    "en": "The problem with object-oriented languages is they’ve got all this implicit environment that they carry around with them. You wanted a banana but what you got was a gorilla holding the banana and the entire jungle."
   },
   {
     "id": "5a6ce8702af929789500e86a",
@@ -375,19 +280,9 @@
     "en": "There are two major products that come out of Berkeley: LSD and UNIX. We don't believe this to be a coincidence."
   },
   {
-    "id": "5a6ce8702af929789500e8bc",
-    "author": "Edsger W. Dijkstra",
-    "en": "The competent programmer is fully aware of the strictly limited size of his own skull; therefore he approaches the programming task in full humility, and among other things he avoids clever tricks like the plague"
-  },
-  {
     "id": "5a6ce8702af929789500e8ae",
     "author": "Joshua Bloch",
     "en": "When in doubt, leave it out."
-  },
-  {
-    "id": "5a6ce8702af929789500e8be",
-    "author": "Linus Torvalds",
-    "en": "I will, in fact, claim that the difference between a bad programmer and a good one is whether he considers his code or his data structures more important. Bad programmers worry about the code. Good programmers worry about data structures and their relationships."
   },
   {
     "id": "5a6ce8702af929789500e8ce",
@@ -420,11 +315,6 @@
     "en": "Don't worry about anything. Just do what you can and be the best you can be."
   },
   {
-    "id": "5a82b607fc716e0004373f53",
-    "author": "Tom DeMarco",
-    "en": "The business of software building isn't really high-tech at all. It's most of all a business of talking to each other and writing things down."
-  },
-  {
     "id": "5a6ce8702af929789500e8ca",
     "author": "Paul Graham (programmer)",
     "en": "In programming the hard part isn’t solving problems, but deciding what problems to solve."
@@ -440,24 +330,9 @@
     "en": "People under pressure don’t work better; they just work faster."
   },
   {
-    "id": "5a8946eda578110004299a3b",
-    "author": "Donald Knuth",
-    "en": "My main conclusion after spending ten years of my life working on the TEX project is that software is hard. It’s harder than anything else I’ve ever had to do."
-  },
-  {
     "id": "5a82cd5ffc716e0004373f57",
     "author": "Donald Knuth",
     "en": "Science is what we understand well enough to explain to a computer. Art is everything else we do."
-  },
-  {
-    "id": "5a896544a12a0e0004c76124",
-    "author": "Donald Knuth",
-    "en": "We have seen that computer programming is an art, because it applies accumulated knowledge to the world, because it requires skill and ingenuity, and especially because it produces objects of beauty."
-  },
-  {
-    "id": "5a82cd91fc716e0004373f58",
-    "author": "Donald Knuth",
-    "en": "Email is a wonderful thing for people whose role in life is to be on top of things. But not for me; my role is to be on the bottom of things. What I do takes long hours of studying and uninterruptible concentration."
   },
   {
     "id": "5a8e9b5884a8f2000482568b",
@@ -470,54 +345,14 @@
     "en": "As soon as an Analytical Engine exists, it will necessarily guide the future course of science."
   },
   {
-    "id": "5a9137d72141d30004b42e59",
-    "author": "Charles Babbage",
-    "en": "The errors which arise from the absence of facts are far more numerous and more durable than those which result from unsound reasoning respecting true data."
-  },
-  {
-    "id": "5a9138442141d30004b42e5a",
-    "author": "Charles Babbage",
-    "en": "We have already mentioned what may, perhaps, appear paradoxical to some of our readers, — that the division of labour can be applied with equal success to mental as to mechanical operations, and that it ensures in both the same economy of time."
-  },
-  {
-    "id": "5a9139472141d30004b42e5b",
-    "author": "Charles Babbage",
-    "en": "On two occasions I have been asked [by members of Parliament]: \"Pray, Mr. Babbage, if you put into the machine wrong figures, will the right answers come out?\" I am not able rightly to apprehend the kind of confusion of ideas that could provoke such a question."
-  },
-  {
-    "id": "5a91be60346ab3000418a760",
-    "author": "Edsger W. Dijkstra",
-    "en": "As long as there were no machines, programming was no problem at all; when we had a few weak computers, programming became a mild problem, and now we have gigantic computers, programming has become an equally gigantic problem."
-  },
-  {
     "id": "5a91e12fc4240c0004265950",
     "author": "Edsger W. Dijkstra",
     "en": "The use of COBOL cripples the mind; its teaching should, therefore, be regarded as a criminal offense."
   },
   {
-    "id": "5a91d1c1c4240c000426594f",
-    "author": "Edsger W. Dijkstra",
-    "en": "If you want more effective programmers, you will discover that they should not waste their time debugging, they should not introduce the bugs to start with."
-  },
-  {
-    "id": "5a91e150c4240c0004265951",
-    "author": "Edsger W. Dijkstra",
-    "en": "It is practically impossible to teach good programming to students that have had a prior exposure to BASIC: as potential programmers they are mentally mutilated beyond hope of regeneration."
-  },
-  {
     "id": "5a91e27ec4240c0004265953",
     "author": "Edsger W. Dijkstra",
     "en": "A picture may be worth a thousand words, a formula is worth a thousand pictures."
-  },
-  {
-    "id": "5a91e224c4240c0004265952",
-    "author": "Edsger W. Dijkstra",
-    "en": "I mean, if 10 years from now, when you are doing something quick and dirty, you suddenly visualize that I am looking over your shoulders and say to yourself \"Dijkstra would not have liked this\", well, that would be enough immortality for me."
-  },
-  {
-    "id": "5a91bc8f346ab3000418a75f",
-    "author": "Edsger W. Dijkstra",
-    "en": "Don't blame me for the fact that competent programming will be too difficult for \"the average programmer\" — you must not fall into the trap of rejecting a surgical technique because it is beyond the capabilities of the barber in his shop around the corner."
   },
   {
     "id": "5a91e37bc4240c0004265955",
@@ -540,11 +375,6 @@
     "en": "By understanding a machine-oriented language, the programmer will tend to use a much more efficient method; it is much closer to reality."
   },
   {
-    "id": "5a91e459c4240c0004265958",
-    "author": "Dennis Ritchie",
-    "en": "Another danger is that commercial pressures of one sort or another will divert the attention of the best thinkers from real innovation to exploitation of the current fad, from prospecting to mining a known lode."
-  },
-  {
     "id": "5a91e51dc4240c0004265959",
     "author": "Bjarne Stroustrup",
     "en": "Within C++, there is a much smaller and cleaner language struggling to get out."
@@ -560,19 +390,9 @@
     "en": "A man provided with paper, pencil, and rubber, and subject to strict discipline, is in effect a universal machine."
   },
   {
-    "id": "5a91e6a3c4240c000426595c",
-    "author": "Alan Turing",
-    "en": "The idea behind digital computers may be explained by saying that these machines are intended to carry out any operations which could be done by a human computer."
-  },
-  {
     "id": "5a91e779c4240c000426595d",
     "author": "Alan Turing",
     "en": "Machines take me by surprise with great frequency."
-  },
-  {
-    "id": "5a933b4c8e7b510004cba4be",
-    "author": "Bjarne Stroustrup",
-    "en": "Maybe \"just one little global variable\" isn't too unmanageable, but that style leads to code that is useless except to its original programmer."
   },
   {
     "id": "5a933c3d8e7b510004cba4bf",
@@ -610,11 +430,6 @@
     "en": "Talk is cheap. Show me the code."
   },
   {
-    "id": "5a9340e08e7b510004cba4c4",
-    "author": "Tom Cargill",
-    "en": "The first 90 percent of the code accounts for the first 90 percent of the development time. The remaining 10 percent of the code accounts for the other 90 percent of the development time."
-  },
-  {
     "id": "5a93467e8e7b510004cba4c8",
     "author": "Kent Beck",
     "en": "I'm not a great programmer; I'm just a good programmer with great habits."
@@ -635,29 +450,9 @@
     "en": "What a computer is to me is it's the most remarkable tool that we have ever come up with. It's the equivalent of a bicycle for our minds."
   },
   {
-    "id": "5a93eb796a584e0004a4a617",
-    "author": "Marijn Haverbeke",
-    "en": "Programming, it turns out, is hard. The fundamental rules are typically simple and clear. But programs built on top of these rules tend to become complex enough to introduce their own rules and complexity. You’re building your own maze, in a way, and you might just get lost in it."
-  },
-  {
-    "id": "5a93d8036a584e0004a4a615",
-    "author": "Steve Jobs",
-    "en": "I'm convinced that about half of what separates the successful entrepreneurs from the non-successful ones is pure perseverance. It is so hard."
-  },
-  {
     "id": "5a93da0d6a584e0004a4a616",
     "author": "Steve Jobs",
     "en": "A lot of companies hire people to tell them what to do. We hire people to tell us what to do."
-  },
-  {
-    "id": "5a93ebdc6a584e0004a4a618",
-    "author": "Marijn Haverbeke",
-    "en": "Computers themselves can do only stupidly straightforward things. The reason they are so useful is that they do these things at an incredibly high speed."
-  },
-  {
-    "id": "5a93ed3d6a584e0004a4a619",
-    "author": "Marijn Haverbeke",
-    "en": "A program is a building of thought. It is costless to build, it is weightless, and it grows easily under our typing hands. But without care, a program’s size and complexity will grow out of control, confusing even the person who created it."
   },
   {
     "id": "5a93edc56a584e0004a4a61a",
@@ -665,39 +460,14 @@
     "en": "There are many terrible mistakes to make in program design, so go ahead and make them so that you understand them better."
   },
   {
-    "id": "5a93fd14e49ad10004edb860",
-    "author": "Donald Knuth",
-    "en": "People think that computer science is the art of geniuses but the actual reality is the opposite, just many people doing things that build on each other, like a wall of mini stones."
-  },
-  {
-    "id": "5a94040fe49ad10004edb862",
-    "author": "Jamie Zawinski",
-    "en": "Professionalism has no place in art, and hacking is art. Software Engineering might be science; but that's not what I do. I'm a hacker, not an engineer."
-  },
-  {
     "id": "5a940c14e49ad10004edb864",
     "author": "Quarry worker's creed",
     "en": "We who cut mere stones must always be envisioning cathedrals."
   },
   {
-    "id": "5a9405d7e49ad10004edb863",
-    "author": "Roy Fielding",
-    "en": "Communication must be stateless in nature, such that each request from client to server must contain all of the information necessary to understand the request, and cannot take advantage of any stored context on the server."
-  },
-  {
     "id": "5a942ea0ee7ed5000496b16f",
     "author": "Kent Beck",
     "en": "When you feel the need to write a comment, first try to refactor the code so that any comment becomes superfluous."
-  },
-  {
-    "id": "5a942dc4ee7ed5000496b16e",
-    "author": "Kent Beck",
-    "en": "When you find you have to add a feature to a program, and the program's code is not structured in a convenient way to add the feature, first refactor the program to make it easy to add the feature, then add the feature."
-  },
-  {
-    "id": "5a942fc3ee7ed5000496b171",
-    "author": "Martin Fowler",
-    "en": "There are few things more frustrating or time wasting than debugging. Wouldn't it be a hell of a lot quicker if we just didn't create the bugs in the first place?"
   },
   {
     "id": "5a942fa3ee7ed5000496b170",
@@ -708,21 +478,6 @@
     "id": "5a942fd8ee7ed5000496b172",
     "author": "Martin Fowler",
     "en": "I think one of the most valuable rules is avoid duplication."
-  },
-  {
-    "id": "5a942ffbee7ed5000496b173",
-    "author": "Martin Fowler",
-    "en": "Often designers do complicated things that improve the capacity on a particular hardware platform when it might actually be cheaper to buy more hardware."
-  },
-  {
-    "id": "5a9430a4ee7ed5000496b175",
-    "author": "John Carmack",
-    "en": "The situation is so much better for programmers today - a cheap used PC, a linux CD, and an internet account, and you have all the tools necessary to work your way to any level of programming skill you want to shoot for."
-  },
-  {
-    "id": "5a94303bee7ed5000496b174",
-    "author": "John Carmack",
-    "en": "If you want to set off and go develop some grand new thing, you don't need millions of dollars of capitalization. You need enough pizza and Diet Coke to stick in your refrigerator, a cheap PC to work on, and the dedication to go through with it."
   },
   {
     "id": "5a9430ceee7ed5000496b176",
@@ -758,11 +513,6 @@
     "id": "5a943267ee7ed5000496b17d",
     "author": "Bill Gates",
     "en": "Your most unhappy customers are your greatest source of learning."
-  },
-  {
-    "id": "5a9432a9ee7ed5000496b17e",
-    "author": "Bill Gates",
-    "en": "We're no longer in the days where everything is super well crafted. But at the heart of the programs that make it to the top, you'll find that the key internal code was done by a few people who really know what they were doing."
   },
   {
     "id": "5a943301ee7ed5000496b181",
@@ -845,16 +595,6 @@
     "en": "Programs must be written for people to read, and only incidentally for machines to execute."
   },
   {
-    "id": "5a943612ee7ed5000496b192",
-    "author": "Mark Gibbs",
-    "en": "No matter how slick the demo is in rehearsal, when you do it in front of a live audience, the probability of a flawless presentation is inversely proportional to the number of people watching, raised to the power of the amount of money involved."
-  },
-  {
-    "id": "5a956c50e648470004c69e0d",
-    "author": "Nathaniel Borenstein",
-    "en": "It should be noted that no ethically-trained software engineer would ever consent to write a DestroyBaghdad procedure. Basic professional ethics would instead require him to write a DestroyCity procedure, to which Baghdad could be given as a parameter."
-  },
-  {
     "id": "5a956e55e648470004c69e10",
     "author": "Jef Raskin",
     "en": "When we don’t understand a process, we fall into magical thinking about results."
@@ -915,11 +655,6 @@
     "en": "If we’d asked the customers what they wanted, they would have said “faster horses”."
   },
   {
-    "id": "5a95d2487700780004d51dbc",
-    "author": "David Parnas",
-    "en": "I have found that the reason a lot of people are interested in artificial intelligence is the same reason a lot of people are interested in artificial limbs: they are missing one."
-  },
-  {
     "id": "5a95d2a57700780004d51dbd",
     "author": "Leslie Lamport",
     "en": "A distributed system is one in which the failure of a computer you didn’t even know existed can render your own computer unusable."
@@ -950,11 +685,6 @@
     "en": "Good software, like good wine, takes time."
   },
   {
-    "id": "5a95d5bf7700780004d51dc4",
-    "author": "Eric S. Raymond",
-    "en": "Lisp is worth learning for the profound enlightenment experience you will have when you finally get it; that experience will make you a better programmer for the rest of your days, even if you never actually use Lisp itself a lot."
-  },
-  {
     "id": "5a95d4577700780004d51dc1",
     "author": "Filipe Fortes",
     "en": "Debugging is like being the detective in a crime movie where you are also the murderer."
@@ -975,34 +705,9 @@
     "en": "A computer shall not waste your time or require you to do more work than is strictly necessary."
   },
   {
-    "id": "5a95fcd17700780004d51dcb",
-    "author": "George Boole",
-    "en": "Of the many forms of false culture, a premature converse with abstractions is perhaps the most likely to prove fatal to the growth of a masculine vigour of intellect."
-  },
-  {
-    "id": "5a95dae97700780004d51dc8",
-    "author": "Ken Thompson",
-    "en": "C++ certainly has its good points. But by and large I think it's a bad language. It does a lot of things half well and it’s just a garbage heap of ideas that are mutually exclusive. It’s way too big, way too complex. And it’s obviously built by a committee."
-  },
-  {
-    "id": "5a95fce07700780004d51dcc",
-    "author": "George Boole",
-    "en": "No matter how correct a mathematical theorem may appear to be, one ought never to be satisfied that there was not something imperfect about it until it also gives the impression of being beautiful."
-  },
-  {
-    "id": "5a96009b7700780004d51dcf",
-    "author": "Ada Lovelace",
-    "en": "The Analytical Engine does not occupy common ground with mere 'calculating machines.' It holds a position wholly its own, and the considerations it suggests are more interesting in their nature."
-  },
-  {
     "id": "5a96001a7700780004d51dce",
     "author": "Ada Lovelace",
     "en": "The science of operations, as derived from mathematics more especially, is a science of itself, and has its own abstract truth and value."
-  },
-  {
-    "id": "5a9601017700780004d51dd1",
-    "author": "Ada Lovelace",
-    "en": "In the case of the Analytical Engine, we have undoubtedly to lay out a certain capital of analytical labour in one particular line, but this is in order that the engine may bring us in a much larger return in another line."
   },
   {
     "id": "5a9600ae7700780004d51dd0",
@@ -1010,34 +715,9 @@
     "en": "We may say most aptly that the Analytical Engine weaves algebraical patterns just as the Jacquard loom weaves flowers and leaves."
   },
   {
-    "id": "5a9602227700780004d51dd2",
-    "author": "George Boole",
-    "en": "The design of the following treatise is to investigate the fundamental laws of those operations of the mind by which reasoning is performed; to give expression to them in the symbolical language of a Calculus, and upon this foundation to establish the science of Logic and construct its method."
-  },
-  {
-    "id": "5a967d572ba98a0004b6294f",
-    "author": "John von Neumann",
-    "en": "Any one who considers arithmetical methods of producing random digits is, of course, in a state of sin. For, as has been pointed out several times, there is no such thing as a random number."
-  },
-  {
-    "id": "5a9602757700780004d51dd3",
-    "author": "George Boole",
-    "en": "There is not only a close analogy between the operations of the mind in general reasoning and its operations in the particular science of Algebra, but there is to a considerable extent an exact agreement in the laws by which the two classes of operations are conducted."
-  },
-  {
-    "id": "5a967e9c2ba98a0004b62950",
-    "author": "John von Neumann",
-    "en": "A large part of mathematics which becomes useful developed with absolutely no desire to be useful, and in a situation where nobody could possibly know in what area it would become useful."
-  },
-  {
     "id": "5a96b8e2d6959500047aecae",
     "author": "Friedrich Bauer",
     "en": "Software engineering is the part of computer science which is too difficult for the computer scientist."
-  },
-  {
-    "id": "5a96b909d6959500047aecaf",
-    "author": "Grady Booch",
-    "en": "The amateur software engineer is always in search of magic, some sensational method or tool whose application promises to render software development trivial. It is the mark of the professional software engineer to know that no such panacea exist."
   },
   {
     "id": "5a96b980d6959500047aecb0",
@@ -1050,26 +730,6 @@
     "en": "The entire history of software engineering is that of the rise in levels of abstraction."
   },
   {
-    "id": "5a96b9ead6959500047aecb2",
-    "author": "Hal Abelson",
-    "en": "The reason that we think computer science is about computers is pretty much the same reason that the Egyptians thought geometry was about surveying instruments: when some field is just getting started and you don't really understand it very well, it's very easy to confuse the essence of what you're doing with the tools that you use."
-  },
-  {
-    "id": "5a96b7abd6959500047aecad",
-    "author": "Alan Kay",
-    "en": "Most software today is very much like an Egyptian pyramid with millions of bricks piled on top of each other, with no structural integrity, but just done by brute force and thousands of slaves."
-  },
-  {
-    "id": "5a96ba01d6959500047aecb3",
-    "author": "Bill Gates",
-    "en": "Is studying computer science the best way to prepare to be a programmer? No. the best way to prepare is to write programs, and to study great programs that other people have written."
-  },
-  {
-    "id": "5a96ba30d6959500047aecb4",
-    "author": "Richard Feynman",
-    "en": "Computer science differs from physics in that it is not actually a science. It does not study natural objects. Rather, computer science is like engineering; it is all about getting something to do something."
-  },
-  {
     "id": "5a96ba45d6959500047aecb5",
     "author": "Richard Hamming",
     "en": "The purpose of computing is insight, not numbers."
@@ -1080,39 +740,14 @@
     "en": "All of our exalted technological progress, civilization for that matter, is comparable to an axe in the hand of a pathological criminal."
   },
   {
-    "id": "5a96bbaed6959500047aecb8",
-    "author": "Arthur C. Clarke",
-    "en": "When a distinguished but elderly scientist states that something is possible, they are almost certainly right. When they state that something is impossible, they are very probably wrong."
-  },
-  {
-    "id": "5a96ba93d6959500047aecb6",
-    "author": "Dennis Ritchie",
-    "en": "Computer science research is different from these more traditional disciplines. Philosophically it differs from the physical sciences because it seeks not to discover, explain, or exploit the natural world, but instead to study the properties of machines of human creation."
-  },
-  {
     "id": "5a96bbc3d6959500047aecb9",
     "author": "Arthur C. Clarke",
     "en": "Any sufficiently advanced technology is indistinguishable from magic."
   },
   {
-    "id": "5a96bd31d6959500047aecba",
-    "author": "Joseph Yoder (computer scientist)",
-    "en": "While much attention has been focused on high-level software architectural patterns, what is, in effect, the de-facto standard software architecture is seldom discussed: the Big Ball of Mud."
-  },
-  {
     "id": "5a96bd7ed6959500047aecbb",
     "author": "Joseph Yoder (computer scientist)",
     "en": "All too many of our software systems are, architecturally, little more than shantytowns."
-  },
-  {
-    "id": "5a96be8ed6959500047aecbe",
-    "author": "Joseph Yoder (computer scientist)",
-    "en": "Managing a large project is a qualitatively different problem from managing a small one, just as leading a division of infantry into battle is different from commanding a small special forces team."
-  },
-  {
-    "id": "5a96bf70d6959500047aecc2",
-    "author": "Joseph Yoder (computer scientist)",
-    "en": "When you build a prototype, there is always the risk that someone will say \"that's good enough, ship it\". One way to minimize the risk of a prototype being put into production is to write the prototype in using a language or tool that you couldn't possibly use for a production version."
   },
   {
     "id": "5a96bec9d6959500047aecbf",
@@ -1128,16 +763,6 @@
     "id": "5a96c01dd6959500047aecc4",
     "author": "Joseph Yoder (computer scientist)",
     "en": "Sometimes it’s just easier to throw a system away, and start over."
-  },
-  {
-    "id": "5a96c299d6959500047aecc5",
-    "author": "Eric S. Raymond",
-    "en": "Computer science education cannot make anybody an expert programmer any more than studying brushes and pigment can make somebody an expert painter."
-  },
-  {
-    "id": "5a96c3b6d6959500047aecc7",
-    "author": "Randall E. Stross",
-    "en": "The best programmers are not marginally better than merely good ones. They are an order-of-magnitude better, measured by whatever standard: conceptual creativity, speed, ingenuity of design, or problem-solving ability."
   },
   {
     "id": "5a96c380d6959500047aecc6",
@@ -1160,21 +785,6 @@
     "en": "To iterate is human, to recurse divine."
   },
   {
-    "id": "5a97dee55f624c00046e2102",
-    "author": "Alan Perlis",
-    "en": "For all its power, the computer is a harsh taskmaster. Its programs must be correct, and what we wish to say must be said accurately in every detail."
-  },
-  {
-    "id": "5a97e0755f624c00046e2104",
-    "author": "John Locke",
-    "en": "The acts of the mind, wherein it exerts its power over simple ideas, are chiefly these three: 1. Combining several simple ideas into one compound one, and thus all complex ideas are made. 2. The second is bringing two ideas, whether simple or complex, together, and setting them by one another so as to take a view of them at once, without uniting them into one, by which it gets all its ideas of relations. 3. The third is separating them from all other ideas that accompany them in their real existence: this is called abstraction, and thus all its general ideas are made."
-  },
-  {
-    "id": "5a97efdaccdfe50004febf35",
-    "author": "Gerald Weinberg",
-    "en": "When program developers are not territorial about their code and encourage others to look for bugs and potential improvements, progress speeds up dramatically."
-  },
-  {
     "id": "5a97f196ccdfe50004febf37",
     "author": "Anonymous",
     "en": "The best thing about a boolean is even if you are wrong, you are only off by a bit."
@@ -1195,11 +805,6 @@
     "en": "Computer programs are the most complex things that humans make."
   },
   {
-    "id": "5a97f4e1ccdfe50004febf3d",
-    "author": "Douglas Crockford",
-    "en": "Most programming languages contain good parts and bad parts. I discovered that I could be better programmer by using only the good parts and avoiding the bad parts."
-  },
-  {
     "id": "5a97f510ccdfe50004febf3e",
     "author": "Douglas Crockford",
     "en": "Good architecture is necessary to give programs enough structure to be able to grow large without collapsing into a puddle of confusion."
@@ -1208,16 +813,6 @@
     "id": "5a97f539ccdfe50004febf3f",
     "author": "Douglas Crockford",
     "en": "JavaScript is the world's most misunderstood programming language."
-  },
-  {
-    "id": "5a97f5f2ccdfe50004febf41",
-    "author": "Douglas Crockford",
-    "en": "In JavaScript, there is a beautiful, elegant, highly expressive language that is buried under a steaming pile of good intentions and blunders."
-  },
-  {
-    "id": "5a97f552ccdfe50004febf40",
-    "author": "Douglas Crockford",
-    "en": "Software is usually expected to be modified over the course of its productive life. The process of converting one correct program into a different correct program is extremely challenging."
   },
   {
     "id": "5a97f8c1ccdfe50004febf42",
@@ -1245,11 +840,6 @@
     "en": "The best way to predict the future is to invent it."
   },
   {
-    "id": "5a9802611878b40004879f58",
-    "author": "Martin Fowler",
-    "en": "If you can get today’s work done today, but you do it in such a way that you can’t possibly get tomorrow’s work done tomorrow, then you lose."
-  },
-  {
     "id": "5a9803171878b40004879f5a",
     "author": "Alan Turing",
     "en": "Codes are a puzzle. A game, just like any other game."
@@ -1265,11 +855,6 @@
     "en": "Life is too short to run proprietary software."
   },
   {
-    "id": "5a98075b1878b40004879f5d",
-    "author": "Martin Fowler",
-    "en": "W​henever I have to think to understand what the code is doing, I ask myself if I can refactor the code to make that understanding more immediately apparent."
-  },
-  {
     "id": "5a9803931878b40004879f5b",
     "author": "David Leinweber",
     "en": "If you give someone a program, you will frustrate them for a day; if you teach them how to program, you will frustrate them for a lifetime."
@@ -1283,11 +868,6 @@
     "id": "5a98080e1878b40004879f5f",
     "author": "Addy Osmani",
     "en": "First do it, then do it right, then do it better."
-  },
-  {
-    "id": "5a9808401878b40004879f60",
-    "author": "John Carmack",
-    "en": "The cost of adding a feature isn’t just the time it takes to code it. The cost also includes the addition of an obstacle to future expansion. The trick is to pick the features that don’t fight each other."
   },
   {
     "id": "5a9808b71878b40004879f62",
@@ -1320,11 +900,6 @@
     "en": "Fancy algorithms are slow when n is small, and n is usually small."
   },
   {
-    "id": "5a985c91e93441000489b94a",
-    "author": "Manuel Blum",
-    "en": "The only difference between a FA [finite automata] and a TM [Turing machine] is that the TM, unlike the FA, has paper and pencil. Think about it. It tells you something about the power of writing."
-  },
-  {
     "id": "5a985e7ae93441000489b94c",
     "author": "Alan Perlis",
     "en": "Within a computer, natural language is unnatural."
@@ -1343,11 +918,6 @@
     "id": "5a9860abe93441000489b94f",
     "author": "Donald Knuth",
     "en": "Beware of bugs in the above code; I have only proved it correct, not tried it."
-  },
-  {
-    "id": "5a986366e93441000489b951",
-    "author": "Ivan Sutherland",
-    "en": "A display connected to a digital computer gives us a chance to gain familiarity with concepts not realizable in the physical world. It is a looking glass into a mathematical wonderland."
   },
   {
     "id": "5a9911bb8cdbad0004955d02",
@@ -1395,16 +965,6 @@
     "en": "I think you should always bear in mind that entropy is not on your side."
   },
   {
-    "id": "5a9997d79128a800040c7dff",
-    "author": "Elon Musk",
-    "en": "The path to the CEO's office should not be through the CFO's office, and it should not be through the marketing department. It needs to be through engineering and design."
-  },
-  {
-    "id": "5a9999f39128a800040c7e00",
-    "author": "Elon Musk",
-    "en": "People are mistaken when they think that technology just automatically improves. It does not automatically improve. It only improves if a lot of people work very hard to make it better, and actually it will, I think, by itself degrade, actually."
-  },
-  {
     "id": "5a9a9c372bad9600044b6fb4",
     "author": "Elon Musk",
     "en": "With artificial intelligence we are summoning the demon."
@@ -1415,19 +975,9 @@
     "en": "AI is a fundamental risk to the existence of human civilization."
   },
   {
-    "id": "5a9aa21b2bad9600044b6fba",
-    "author": "Terry Winograd",
-    "en": "The main activity of programming is not the origination of new independent programs, but in the integration, modification, and explanation of existing ones."
-  },
-  {
     "id": "5a9aaff32bad9600044b6fbd",
     "author": "Tim Berners-Lee",
     "en": "Cool URIs don't change."
-  },
-  {
-    "id": "5a9aaf8e2bad9600044b6fbc",
-    "author": "Tim Berners-Lee",
-    "en": "I don't believe in the sort of eureka moment idea. I think it's a myth. I'm very suspicious that actually Archimedes had been thinking about that problem for a long time."
   },
   {
     "id": "5a9ab0372bad9600044b6fbf",
@@ -1455,44 +1005,9 @@
     "en": "The Domain Name Server (DNS) is the Achilles heel of the Web."
   },
   {
-    "id": "5a9ab3f52bad9600044b6fc4",
-    "author": "Vannevar Bush",
-    "en": "Two centuries ago Leibnitz invented a calculating machine which embodied most of the essential features of recent keyboard devices, but it could not then come into use. The economics of the situation were against it."
-  },
-  {
     "id": "5a9ab4a82bad9600044b6fc5",
     "author": "Vannevar Bush",
     "en": "Whenever logical processes of thought are employed, there is an opportunity for the machine."
-  },
-  {
-    "id": "5a9ab8f42bad9600044b6fc6",
-    "author": "Vannevar Bush",
-    "en": "If scientific reasoning were limited to the logical processes of arithmetic, we should not get very far in our understanding of the physical world. One might as well attempt to grasp the game of poker entirely by the use of the mathematics of probability."
-  },
-  {
-    "id": "5a9ac42b2bad9600044b6fc7",
-    "author": "Ward Cunningham",
-    "en": "Shipping first time code is like going into debt. A little debt speeds development so long as it is paid back promptly with a rewrite. The danger occurs when the debt is not repaid. Every minute spent on not-quite-right code counts as interest on that debt. Entire engineering organizations can be brought to a stand-still under the technical debt load."
-  },
-  {
-    "id": "5a9ac4852bad9600044b6fc8",
-    "author": "Martin Fowler",
-    "en": "Like a financial debt, the technical debt incurs interest payments, which come in the form of the extra effort that we have to do in future development because of the quick and dirty design choice."
-  },
-  {
-    "id": "5a9ac5942bad9600044b6fc9",
-    "author": "Steve McConnell",
-    "en": "One of the important implications of technical debt is that it must be serviced. If the debt grows large enough, eventually the company will spend more on servicing its debt than it invests in increasing the value of its other assets."
-  },
-  {
-    "id": "5a9ab0622bad9600044b6fc0",
-    "author": "Tim Berners-Lee",
-    "en": "What's very important from my point of view is that there is one web. Anyone that tries to chop it into two will find that their piece looks very boring."
-  },
-  {
-    "id": "5a9b0b112bad9600044b6fca",
-    "author": "René Descartes",
-    "en": "Thus it is observable that the buildings which a single architect has planned and executed, are generally more elegant and commodious than those which several have attempted to improve."
   },
   {
     "id": "5a9b0b752bad9600044b6fcb",
@@ -1505,34 +1020,9 @@
     "en": "The magic of a computer lies in its ability to become almost anything you can imagine, as long as you can explain exactly what that is."
   },
   {
-    "id": "5a9b0b9a2bad9600044b6fcc",
-    "author": "Danny Hillis",
-    "en": "The computer is not just an advanced calculator or camera or paintbrush; rather, it is a device that accelerates and extends our processes of thought."
-  },
-  {
-    "id": "5a9b0bce2bad9600044b6fce",
-    "author": "Danny Hillis",
-    "en": "With the right programming, a computer can become a theater, a musical instrument, a reference book, a chess opponent. No other entity in the world except a human being has such an adaptable, universal nature."
-  },
-  {
-    "id": "5a9b0c2f2bad9600044b6fcf",
-    "author": "Danny Hillis",
-    "en": "Anyone who has ever written a program knows that telling a computer what you want it to do is not as easy as it sounds. Every detail of the computer’s desired operation must be precisely described. For instance, if you tell an accounting program to bill your clients for the amount that each owes, then the computer will send out a weekly bill for $0.00 to clients who owe nothing."
-  },
-  {
     "id": "5a9b0c4b2bad9600044b6fd0",
     "author": "Danny Hillis",
     "en": "A skilled programmer is like a poet who can put into words those ideas that others find inexpressible."
-  },
-  {
-    "id": "5a9b0c6b2bad9600044b6fd1",
-    "author": "Danny Hillis",
-    "en": "Every computer language has its Shakespeares, and it is a joy to read their code. A well-written computer program possesses style, finesse, even humor—and a clarity that rivals the best prose."
-  },
-  {
-    "id": "5a9b0c932bad9600044b6fd2",
-    "author": "Danny Hillis",
-    "en": "It turns out that there is no algorithm for examining a program and determining whether or not it is fatally infected with an endless loop. Moreover, it’s not that no one has yet discovered such an algorithm; rather, no such algorithm is possible."
   },
   {
     "id": "5a9b0cc62bad9600044b6fd3",
@@ -1540,44 +1030,9 @@
     "en": "The class of problems that are computable by a digital computer apparently includes every problem that is computable by any kind of device."
   },
   {
-    "id": "5a9b0d662bad9600044b6fd5",
-    "author": "Hal Abelson",
-    "en": "The programs we use to conjure processes are like a sorcerer's spells. They are carefully composed from symbolic expressions in arcane and esoteric programming languages that prescribe the tasks we want our processes to perform."
-  },
-  {
-    "id": "5a9b10db2bad9600044b6fd7",
-    "author": "Fred Brooks",
-    "en": "Human beings are not accustomed to being perfect, and few areas of human activity demand it. Adjusting to the requirement for perfection is, I think, the most difficult part of learning to program."
-  },
-  {
-    "id": "5a9b131f2bad9600044b6fd9",
-    "author": "Fred Brooks",
-    "en": "Because of optimism, we usually expect the number of bugs to be smaller than it turns out to be. Therefore testing is usually the most mis-scheduled part of programming."
-  },
-  {
-    "id": "5a9b0d9c2bad9600044b6fd6",
-    "author": "Danny Hillis",
-    "en": "One of the greatest joys in computer programming is discovering a new, faster, more efficient algorithm for doing something — particularly if a lot of well-respected people have come up with worse solutions."
-  },
-  {
     "id": "5a9b13442bad9600044b6fda",
     "author": "Fred Brooks",
     "en": "False scheduling to match the patron's desired date is much more common in our discipline than elsewhere in engineering."
-  },
-  {
-    "id": "5a9b14c12bad9600044b6fdb",
-    "author": "Robert L. Glass",
-    "en": "The best programmers are up to 28 times better than the worst programmers, according to “individual differences” research. Given that their pay is never commensurate, they are the biggest bargains in the software field."
-  },
-  {
-    "id": "5a9b154e2bad9600044b6fdc",
-    "author": "Fred Brooks",
-    "en": "Sackman, Erickson, and Grant were measuring performance of a group of experienced programmers. Within just this group the ratios between the best and worst performances averaged about 10:1 on productivity measurements and an amazing 5:1 on program speed and space measurements!"
-  },
-  {
-    "id": "5a9b15cb2bad9600044b6fdd",
-    "author": "Fred Brooks",
-    "en": "Conceptual integrity is the most important consideration in system design. It is better to have a system omit certain anomalous features and improvements, but to reflect one set of design ideas, than to have one that contains many good but independent and uncoordinated ideas."
   },
   {
     "id": "5a9b15e52bad9600044b6fde",
@@ -1590,39 +1045,14 @@
     "en": "The general tendency is to over-design the second system, using all the ideas and frills that were cautiously sidetracked on the first one."
   },
   {
-    "id": "5a9b16922bad9600044b6fe2",
-    "author": "Fred Brooks",
-    "en": "The management question, therefore, is not whether to build a pilot system and throw it away. You will do that. The only question is whether to plan in advance to build a throwaway, or to promise to deliver the throwaway to customers."
-  },
-  {
-    "id": "5a9b17542bad9600044b6fe4",
-    "author": "Fred Brooks",
-    "en": "Program building is an entropy-decreasing process, hence inherently metastable. Program maintenance is an entropy-increasing process, and even its most skillful execution only delays the subsidence of the system into unfixable obsolescence."
-  },
-  {
     "id": "5a9b16792bad9600044b6fe1",
     "author": "Fred Brooks",
     "en": "Chemical engineers learned long ago that a process that works in the laboratory cannot be implemented in a factory in only one step."
   },
   {
-    "id": "5a9b17f92bad9600044b6fe7",
-    "author": "Fred Brooks",
-    "en": "First, we must observe that the anomaly is not that software progress is so slow but that computer hardware progress is so fast. No other technology since civilization began has seen six orders of magnitude price-performance gain in 30 years."
-  },
-  {
     "id": "5a9b17a22bad9600044b6fe6",
     "author": "Fred Brooks",
     "en": "Coding is \"90 percent finished\" for half of the total coding time. Debugging is \"99 percent complete\" most of the time."
-  },
-  {
-    "id": "5a9b18102bad9600044b6fe8",
-    "author": "Fred Brooks",
-    "en": "The complexity of software is an essential property, not an accidental one. Hence descriptions of a software entity that abstract away its complexity often abstract away its essence."
-  },
-  {
-    "id": "5a9b189c2bad9600044b6fea",
-    "author": "Fred Brooks",
-    "en": "Study after study shows that the very best designers produce structures that are faster, smaller, simpler, cleaner, and produced with less effort. The differences between the great and the average approach an order of magnitude."
   },
   {
     "id": "5a9b18d52bad9600044b6fec",
@@ -1635,21 +1065,6 @@
     "en": "My rule of thumb is 1/3 of the schedule for design, 1/6 for coding, 1/4 for component testing, and 1/4 for system testing."
   },
   {
-    "id": "5a9b18bf2bad9600044b6feb",
-    "author": "Fred Brooks",
-    "en": "First, my wife, my colleagues, and my editors find me to err far more often in optimism than in pessimism. I am, after all, a programmer by background, and optimism is an occupational disease of our craft."
-  },
-  {
-    "id": "5a9b19232bad9600044b6fee",
-    "author": "Fred Brooks",
-    "en": "Because we are uncertain about our scheduling estimates, we often lack the courage to defend them stubbornly against management and customer pressure."
-  },
-  {
-    "id": "5a9b19422bad9600044b6fef",
-    "author": "Fred Brooks",
-    "en": "Adding people to a software project increases the total effort necessary in three ways: the work and disruption of repartitioning itself, training the new people, and added intercommunication."
-  },
-  {
     "id": "5a9b195a2bad9600044b6ff0",
     "author": "Fred Brooks",
     "en": "Very good professional programmers are ten times as productive as poor ones, at same training and two-year experience level."
@@ -1658,11 +1073,6 @@
     "id": "5a9b198a2bad9600044b6ff2",
     "author": "Fred Brooks",
     "en": "Programming increases goes as a power of program size."
-  },
-  {
-    "id": "5a9b1abf2bad9600044b6ff7",
-    "author": "Daniel T. Barry",
-    "en": "Various studies indicate that the optimal team size is between 2 and 5, with 3 being the mode. With more than 5 team members, team management begins to dominate the work."
   },
   {
     "id": "5a9b1ce02bad9600044b6ff8",
@@ -1730,11 +1140,6 @@
     "en": "The cost to repair an error goes up dramatically as project moves towards completion and beyond."
   },
   {
-    "id": "5a9b1f252bad9600044b6ffe",
-    "author": "Daniel T. Barry",
-    "en": "A team of highly competent programmers who are also highly territorial, egotistical politicians will fail while a team of equally competent programmers, who are also egoless, cooperative, team players will succeed."
-  },
-  {
     "id": "5a9b203c2bad9600044b7004",
     "author": "Daniel T. Barry",
     "en": "For most software, efficiency just does not matter."
@@ -1743,16 +1148,6 @@
     "id": "5a9b214b2bad9600044b7005",
     "author": "Harlan Mills",
     "en": "The best way to know that you have found the last bug is never to find the first bug."
-  },
-  {
-    "id": "5a9b21cb2bad9600044b7008",
-    "author": "Harlan Mills",
-    "en": "An interactive debugger is an outstanding example of what is not needed - it encourages trial-and-error hacking rather than systematic design, and also hides marginal people barely qualified for precision programming."
-  },
-  {
-    "id": "5a9b22a02bad9600044b7009",
-    "author": "Daniel T. Barry",
-    "en": "Thoroughly testing a program is impossible (requires unbounded number of test cases); so try to choose test cases that will expose all errors. That’s very difficult, especially since we do not know what all the errors are, and if we did, we would not need the test cases!"
   },
   {
     "id": "5a9b21a12bad9600044b7007",
@@ -1795,66 +1190,6 @@
     "en": "Machines as simple as thermostats can be said to have beliefs."
   },
   {
-    "id": "5a9b253f2bad9600044b7016",
-    "author": "Tony Parisi (software developer)",
-    "en": "A framework can provide 90% of the features we need quickly — giving us a false sense of confidence early in the development cycle — and then be frustratingly hard when it comes to implementing the last 10%."
-  },
-  {
-    "id": "5a9c6502ff6af300049e6b5a",
-    "author": "John McCarthy (computer scientist)",
-    "en": "Mental qualities peculiar to human-like motivational structures, such as love and hate, will not be required for intelligent behavior, but we could probably program computers to exhibit them if we wanted to."
-  },
-  {
-    "id": "5a9d2f8c607c5100044dff77",
-    "author": "Richard Stallman",
-    "en": "I have met bright students in computer science who have never seen the source code of a large program. They may be good at writing small programs, but they can't begin to learn the different skills of writing large ones if they can't see how others have done it."
-  },
-  {
-    "id": "5a9c65d6ff6af300049e6b5b",
-    "author": "John McCarthy (computer scientist)",
-    "en": "Program designers have a tendency to think of the users as idiots who need to be controlled. They should rather think of their program as a servant, whose master, the user, should be able to control it."
-  },
-  {
-    "id": "5a9d3007607c5100044dff79",
-    "author": "Richard Stallman",
-    "en": "In fact, in the 1980s I often came across newly graduated computer science majors who had never seen a real program in their lives. They had only seen toy exercises, school exercises, because every real program was a trade secret."
-  },
-  {
-    "id": "5a9d31fa607c5100044dff7c",
-    "author": "Richard Stallman",
-    "en": "I figure that since proprietary software developers use copyright to stop us from sharing, we cooperators can use copyright to give other cooperators an advantage of their own: they can use our code."
-  },
-  {
-    "id": "5a9d2eb2607c5100044dff75",
-    "author": "Richard Stallman",
-    "en": "I consider that the golden rule requires that if I like a program I must share it with other people who like it. Software sellers want to divide the users and conquer them, making each user agree not to share with others. I refuse to break solidarity with other users in this way."
-  },
-  {
-    "id": "5a9d33ae607c5100044dff7d",
-    "author": "Richard Stallman",
-    "en": "The free software community rejects the “priesthood of technology”, which keeps the general public in ignorance of how technology works; we encourage students of any age and situation to read the source code and learn as much as they want to know."
-  },
-  {
-    "id": "5a9d3532607c5100044dff7e",
-    "author": "Richard Stallman",
-    "en": "The most powerful programming language is Lisp. If you don't know Lisp (or its variant, Scheme), you don't know what it means for a programming language to be powerful and elegant. Once you learn Lisp, you will understand what is lacking in most other languages."
-  },
-  {
-    "id": "5a9d36a4607c5100044dff7f",
-    "author": "Richard Stallman",
-    "en": "Programming is programming. If you get good at programming, it doesn't matter which language you learned it in, because you'll be able to do programming in any language."
-  },
-  {
-    "id": "5a9dc5de6744730004f6a1e6",
-    "author": "Maurice Wilkes",
-    "en": "It was on one of my journeys between the EDSAC room and the punching equipment the realization came over me with full force that a good part of the remainder of my life was going to be spent in finding errors in my own programs."
-  },
-  {
-    "id": "5a9dc65d6744730004f6a1e8",
-    "author": "Maurice Wilkes",
-    "en": "Since 1954, the raw speed of computers, as measured by the time it takes to do an addition, increased by a factor of 10,000. That means an algorithm that once took 10 minutes to perform can now be done 15 times a second."
-  },
-  {
     "id": "5a9dc8e76744730004f6a1e9",
     "author": "Richard Hamming",
     "en": "Typing is no substitute for thinking."
@@ -1863,11 +1198,6 @@
     "id": "5a9d530a1a29250004e946df",
     "author": "Donald Knuth",
     "en": "A programmer who subconsciously views himself as an artist will enjoy what he does and will do it better."
-  },
-  {
-    "id": "5a9dc9c26744730004f6a1ea",
-    "author": "Richard Hamming",
-    "en": "Perhaps the central problem we face in all of computer science is how we are to get to the situation where we build on top of the work of others rather than redoing so much of it in a trivially different way."
   },
   {
     "id": "5a9dcace6744730004f6a1eb",
@@ -1880,11 +1210,6 @@
     "en": "Really good programs live forever."
   },
   {
-    "id": "5a9dccdd6744730004f6a1ec",
-    "author": "Richard Hamming",
-    "en": "In science if you know what you are doing you should not be doing it. In engineering if you do not know what you are doing you should not be doing it."
-  },
-  {
     "id": "5aa28d721dcf530004c4bf65",
     "author": "Butler Lampson",
     "en": "In handling resources, strive to avoid disaster rather than to attain an optimum."
@@ -1895,19 +1220,9 @@
     "en": "As with most projects, the last two percent takes fifty percent of the time."
   },
   {
-    "id": "5aa299fbe7e86700048f0279",
-    "author": "Gary Kildall",
-    "en": "It's fun to sit at a terminal and let the code flow. It sounds strange, but it just comes out my brain; once I'm started, I don't have to think about it."
-  },
-  {
     "id": "5aa29b16e7e86700048f027a",
     "author": "Gary Kildall",
     "en": "I think programming is very much a religious experience for a lot of people."
-  },
-  {
-    "id": "5aa28c251dcf530004c4bf63",
-    "author": "Charles Simonyi",
-    "en": "What is programming? Some people call it a science, some people call it an art, some people call it a skill. I think it has aspects of all three."
   },
   {
     "id": "5aa29bfee7e86700048f027b",
@@ -1965,21 +1280,6 @@
     "en": "I think the best way to supervise is by personal example and by frequent code reviews."
   },
   {
-    "id": "5aa3181fbb93c00004d9a6f8",
-    "author": "Butler Lampson",
-    "en": "There are some basic techniques to control complexity. Fundamentally, I divide and conquer, break things down, and try to write reasonably precise descriptions of what each piece is supposed to do."
-  },
-  {
-    "id": "5aa311f9bb93c00004d9a6f7",
-    "author": "Charles Simonyi",
-    "en": "The efficiency of the code decreases with an increase in the number of people working on the program. The most efficient programs are written by a single person."
-  },
-  {
-    "id": "5aa30d4abb93c00004d9a6f5",
-    "author": "Charles Simonyi",
-    "en": "I'll bet you that from ten feet away I can tell if a program is bad. I might not guarantee that it is good, but if it looks bad from ten feet, I can guarantee you that it wasn't written with care."
-  },
-  {
     "id": "5aa44e197832df00040ac9b7",
     "author": "Butler Lampson",
     "en": "Nobody knows how to build really complicated hardware systems, so designing hardware tends to be simpler. Software is much more complicated."
@@ -1995,24 +1295,9 @@
     "en": "To be successful, you want to surround yourself with very talented folks whose skills blend very well. That’s the secret of success."
   },
   {
-    "id": "5aa459d77832df00040ac9bc",
-    "author": "Gary Kildall",
-    "en": "I start with drawing the data structures, and I spend a lot of time thinking about them. I also think about what the program has to go through before I start writing code."
-  },
-  {
-    "id": "5aa456d87832df00040ac9ba",
-    "author": "John Warnock",
-    "en": "Don’t go into a two-year development with nothing coming out in the middle. Have something come out every two months, so you can evaluate, regroup, and restart."
-  },
-  {
     "id": "5aa459767832df00040ac9bb",
     "author": "Gary Kildall",
     "en": "If you learn how to solve problems, you can go through life and do pretty well."
-  },
-  {
-    "id": "5aa45f317832df00040ac9c0",
-    "author": "Bill Gates",
-    "en": "A great programmer thinks about the program on a constant basis, whether driving or eating. That method takes an incredible amount of mental energy."
   },
   {
     "id": "5aa4601c7832df00040ac9c1",
@@ -2020,39 +1305,9 @@
     "en": "The really great programs I've written have all been ones that I have thought about for a huge amount of time before I ever wrote them."
   },
   {
-    "id": "5aa461667832df00040ac9c2",
-    "author": "Bill Gates",
-    "en": "There is an amazing commonality in the types of difficulties you run into. In design reviews, I really enjoy being able to provide advice, based on programs that I have done."
-  },
-  {
-    "id": "5a9b16b92bad9600044b6fe3",
-    "author": "Fred Brooks",
-    "en": "The fundamental problem with program maintenance is that fixing a defect has a substantial (20-50 percent) chance of introducing another. So the whole process is two steps forward and one step back."
-  },
-  {
     "id": "5aa5c874d1481c4acc43aa71",
     "author": "Addy Osmani",
     "en": "Really care about the tools you use because they are what make you your best."
-  },
-  {
-    "id": "5aa63f3a42fbc6000481ca0d",
-    "author": "Michael Hawley",
-    "en": "What I like about programming is that it really helps you think about how we communicate, how we think, how logic works, how creative arts work."
-  },
-  {
-    "id": "5aa6de2101c2c400048eb9a8",
-    "author": "Douglas Crockford",
-    "en": "One of the things I’ve been pushing is code reading. I think that is the most useful thing that a community of programmers can do for each other—spend time on a regular basis reading each other’s code."
-  },
-  {
-    "id": "5aa6dd2101c2c400048eb9a7",
-    "author": "Douglas Crockford",
-    "en": "I think the best way to make JavaScript better would be to\nmake it smaller. If we could just get it down to what it does really well and remove the features that add little or no value, it’s actually a better language."
-  },
-  {
-    "id": "5aa6e0d101c2c400048eb9a9",
-    "author": "Douglas Crockford",
-    "en": "Readability of code is now my first priority. It’s more important than being fast, almost as important as being correct, but I think being readable is actually the most likely way of making it correct."
   },
   {
     "id": "5aa6e37801c2c400048eb9aa",
@@ -2070,11 +1325,6 @@
     "en": "People should be able to speak and breathe programs just like they talk now."
   },
   {
-    "id": "5aa9a89904c8cd0004d472c4",
-    "author": "Joe Armstrong (programmer)",
-    "en": "If you start removing things, if you get to the point where if you were to remove anything more it would not work any more — at this point it is beautiful."
-  },
-  {
     "id": "5aa8307a94bd610da89b3340",
     "author": "Buckminster Fuller",
     "en": "Humanity is acquiring all the right technology for all the wrong reasons."
@@ -2085,64 +1335,9 @@
     "en": "I characterize functional programming as a radical and elegant attack on the whole enterprise of writing programs."
   },
   {
-    "id": "5aab9d9617c21b0004913edc",
-    "author": "Marijn Haverbeke",
-    "en": "Size almost always involves complexity, and complexity confuses programmers. Confused programmers, in turn, introduce mistakes (bugs) into programs."
-  },
-  {
-    "id": "5aab9ade17c21b0004913edb",
-    "author": "Marijn Haverbeke",
-    "en": "Flaws in computer programs are usually called bugs. It makes programmers feel good to imagine them as little things that just happen to crawl into our work. In reality, of course, we put them there ourselves."
-  },
-  {
-    "id": "5aac2850c2138a00046e9183",
-    "author": "L. Peter Deutsch",
-    "en": "When I was at what I would consider the peak of my abilities, I had extremely trustworthy intuition. I would do things and they would just turn out right."
-  },
-  {
     "id": "5aac2af1c2138a00046e9185",
     "author": "L. Peter Deutsch",
     "en": "Every now and then I feel a temptation to design a programming language but then I just lie down until it goes away."
-  },
-  {
-    "id": "5aac2cf9c2138a00046e9186",
-    "author": "L. Peter Deutsch",
-    "en": "Language systems stand on a tripod. There’s the language, there’s the libraries, and there are the tools. And how successful a language is depends on a complex interaction between those three things."
-  },
-  {
-    "id": "5aac29e1c2138a00046e9184",
-    "author": "L. Peter Deutsch",
-    "en": "I would make a strong case that programming languages have not improved qualitatively in the last 40 years. There is no programming language in use today that is qualitatively better than Simula-67."
-  },
-  {
-    "id": "5aac303cc2138a00046e9188",
-    "author": "Gottfried Wilhelm Leibniz",
-    "en": "Instead of the progression of tens, I have for many years used the simplest progression of all, which proceeds by twos, having found that it is useful for the perfection of the science of numbers."
-  },
-  {
-    "id": "5aac2e8fc2138a00046e9187",
-    "author": "L. Peter Deutsch",
-    "en": "I never in my wildest dreams would have predicted the evolution of the Internet. And I never would’ve predicted the degree to which corporate influence over the Internet has changed its character over time."
-  },
-  {
-    "id": "5aac3a57610d7d0004066303",
-    "author": "Ken Thompson",
-    "en": "I’ve never been a lover of existing code. Code by itself almost rots and it’s gotta be rewritten. Even when nothing has changed, for some reason it rots."
-  },
-  {
-    "id": "5aac39b1610d7d0004066302",
-    "author": "Ken Thompson",
-    "en": "Modern programming scares me in many respects. It confuses me to read a program which you must read top-down. It says “do something.” And you go find “something.” And you read it and it says, “do something else” and you go find something and it says, “do something else” and it goes back to the top maybe. And nothing gets done. It’s just relegating the problem to a deeper and deeper level."
-  },
-  {
-    "id": "5aa9a7b304c8cd0004d472c3",
-    "author": "Richard Hamming",
-    "en": "I always spend a day a week learning new stuff. That means I spend 20% more of my time than my colleagues learning new stuff. Now 20% at compound interest means that after four and a half years I will know twice as much as them."
-  },
-  {
-    "id": "5aad68d17632ba0004ec84ae",
-    "author": "Donald Knuth",
-    "en": "I’ll use dirty tricks for two reasons. One is, if it’s really going to give me a performance improvement. Or sometimes just for pure pleasure. In any case, I document it; I don’t just put it in there."
   },
   {
     "id": "5aac3aa3610d7d0004066304",
@@ -2160,11 +1355,6 @@
     "en": "I make mistakes because I’m always operating at my limit. If I only stay in comfortable territory all the time, that’s not so much fun."
   },
   {
-    "id": "5aad6dfa7632ba0004ec84b1",
-    "author": "Donald Knuth",
-    "en": "I’ve got this need to program. I wake up in the morning with sentences of a literate program. Before breakfast — I’m sure poets must feel this — I have to go to the computer and write this paragraph and then I can eat and I’m happy."
-  },
-  {
     "id": "5aad71337632ba0004ec84b2",
     "author": "Donald Knuth",
     "en": "The more varieties of different kinds of notations are still useful — don’t only read the people who code like you."
@@ -2173,16 +1363,6 @@
     "id": "5ab6e0d632a9950004a2efc2",
     "author": "Ted Nelson",
     "en": "The good news about computers is that they do what you tell them to do. The bad news is that they do what you tell them to do."
-  },
-  {
-    "id": "5aa6e99001c2c400048eb9ac",
-    "author": "Douglas Crockford",
-    "en": "Mathematics is important in programming, but it’s just one of a lot of things that are important. If you overemphasize the math then you underemphasize stuff which might be even more important, such as literacy."
-  },
-  {
-    "id": "5aac3b37610d7d0004066305",
-    "author": "Ken Thompson",
-    "en": "Documenting is very, very hard; it’s time-consuming. To do it right, you’ve got to do it like programming. You’ve got to deconstruct it, put it together in nice ways, rewrite it when it’s wrong. People don’t do that."
   },
   {
     "id": "5ab6e20132a9950004a2efc6",
@@ -2198,11 +1378,6 @@
     "id": "5ab6ea2a32a9950004a2efc8",
     "author": "Jim Coplien",
     "en": "You should name a variable using the same care with which you name a first-born child."
-  },
-  {
-    "id": "5acca81fe01bb40004668819",
-    "author": "Robert C. Martin",
-    "en": "The ratio of time spent reading versus writing is well over 10 to 1. We are constantly reading old code as part of the effort to write new code."
   },
   {
     "id": "5b579bb420e9780004ba9ac3",
@@ -2225,34 +1400,14 @@
     "en": "They were saying computers deal with numbers. This was absolutely nonsense. Computers deal with arbitrary information of any kind."
   },
   {
-    "id": "5ab6e1dd32a9950004a2efc5",
-    "author": "Ted Nelson",
-    "en": "Right now you are a prisoner of each application you use. You have only the options that were given you by the developer of that application."
-  },
-  {
-    "id": "5a6ce86f2af929789500e83d",
-    "author": "Ray Ozzie",
-    "en": "Complexity kills. It sucks the life out of developers, it makes products difficult to plan, build and test, it introduces security challenges and it causes end-user and administrator frustration."
-  },
-  {
     "id": "5a6ce8702af929789500e882",
     "author": "Niklaus Wirth",
     "en": "Software gets slower faster than hardware gets faster."
   },
   {
-    "id": "5a6ce8702af929789500e89e",
-    "author": "David Parnas",
-    "en": "A computer is a stupid machine with the ability to do incredibly smart things, while computer programmers are smart people with the ability to do incredibly stupid things. They are, in short, a perfect match."
-  },
-  {
     "id": "5a6ce8702af929789500e8c4",
     "author": "Anonymous",
     "en": "A few months writing code can save you a few hours in design."
-  },
-  {
-    "id": "5a72f8251ac5f022282e4125",
-    "author": "Edsger W. Dijkstra",
-    "en": "Are you quite sure that all those bells and whistles, all those wonderful facilities of your so called powerful programming languages, belong to the solution set rather than the problem set?"
   },
   {
     "id": "5a91e3a1c4240c0004265956",
@@ -2335,11 +1490,6 @@
     "en": "The way to arrest entropy in software is to refactor it."
   },
   {
-    "id": "5a96bf21d6959500047aecc0",
-    "author": "Joseph Yoder (computer scientist)",
-    "en": "Reviews and pair programming provide programmers with something their work would not otherwise have: an audience. Sunlight, it is said is a powerful disinfectant. An immediate audience of one's peers provides immediate incentives to programmers to keep their code clear and comprehensible, as well as functional."
-  },
-  {
     "id": "5a97f2c0ccdfe50004febf38",
     "author": "John Romero",
     "en": "You might not think that programmers are artists, but programming is an extremely creative profession. It's logic-based creativity."
@@ -2390,11 +1540,6 @@
     "en": "I just had to take the hypertext idea and connect it to the TCP and DNS ideas and — ta-da!— the World Wide Web."
   },
   {
-    "id": "5a9b0d552bad9600044b6fd4",
-    "author": "Hal Abelson",
-    "en": "A computational process is indeed much like a sorcerer's idea of a spirit. It cannot be seen or touched. It is not composed of matter at all. However, it is very real. It can perform intellectual work. It can answer questions. It can affect the world by disbursing money at a bank or by controlling a robot arm in a factory."
-  },
-  {
     "id": "5a9b17792bad9600044b6fe5",
     "author": "Fred Brooks",
     "en": "One must assume that there will be lots of bugs, and plan an orderly procedure for snaking them out."
@@ -2435,19 +1580,9 @@
     "en": "The key to keeping software costs down is to write code that is easily modified."
   },
   {
-    "id": "5a9b24492bad9600044b7014",
-    "author": "Daniel T. Barry",
-    "en": "The notions of correctness in mathematics and programs are different. A mathematical model must be consistent; it need not match reality (be correct), and it need not be complete (in the formal sense). A program model must be consistent; it must match reality; and it must be complete (in the sense that it reacts gracefully to all inputs)."
-  },
-  {
     "id": "5a9b23ed2bad9600044b7012",
     "author": "Daniel T. Barry",
     "en": "Programming is at least as difficult as developing a mathematical theory."
-  },
-  {
-    "id": "5a9d2fc8607c5100044dff78",
-    "author": "Richard Stallman",
-    "en": "In 1971 when I joined the staff of the MIT Artificial Intelligence lab, all of us who helped develop the operating system software, we called ourselves hackers. We were not breaking any laws, at least not in doing the hacking we were paid to do. We were developing software and we were having fun. Hacking refers to the spirit of fun in which we were developing software."
   },
   {
     "id": "5a9dc6316744730004f6a1e7",
