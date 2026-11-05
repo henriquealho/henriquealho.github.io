@@ -24,6 +24,9 @@ independent of this site's release versioning.
 
 ### Added
 
+- A compact Medium feature in the existing home-page quote area, rotating through
+  recent articles from the Medium RSS feed without adding another page; feed results
+  are cached locally and failed requests are throttled to avoid repeated rate limits.
 - Projects page (`/projects.html`) rendered from `resources/projects.json`, ordered
   by most recent `date`, with a featured image, `version` and `status`
   (`finished`, `in-development`, `on-hold`) for each project.

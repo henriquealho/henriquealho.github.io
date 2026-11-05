@@ -176,6 +176,16 @@ Home quote
     min-height: 4.5rem;
 }
 
+.home-feature-label:not([hidden]) {
+    display: block;
+    margin-bottom: 0.25rem;
+    color: var(--accent);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
 #quote {
     opacity: 0;
 }
@@ -183,6 +193,11 @@ Home quote
 #quote.is-visible {
     opacity: 1;
     transition: opacity 0.4s ease-in;
+}
+
+.container-quote.is-medium #quote {
+    font-size: 0.95rem;
+    font-style: normal;
 }
 
 .quote-author {
